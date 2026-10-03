@@ -20,7 +20,7 @@ export default function PhysicsApp(){
  const filtered=useMemo(()=>{const q=query.trim().toLowerCase();return q?chapters.filter(c=>JSON.stringify(c).toLowerCase().includes(q)):chapters},[query]);
  const f4=filtered.filter(c=>c.id.startsWith("F4_")),f5=filtered.filter(c=>c.id.startsWith("F5_"));
  const go=(id:string)=>{setSelected(id);setTab("notes");window.scrollTo({top:0,behavior:"smooth"})};
- const translate=(target:string)=>{const code=target==="zh"?"zh-CN":target; document.cookie=`googtrans=${code==="ms"?"/ms/ms":"/ms/"+code}; document.cookie=`googtrans=/ms/${code};path=/`; if(target==="ms"){document.cookie="googtrans=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";} window.location.reload()};
+ const translate=(target:string)=>{const code=target==="zh"?"zh-CN":target; const value=code==="ms"?"/ms/ms":"/ms/"+code; document.cookie="googtrans="+value+";path=/"; window.location.reload()};
  const reactorItems=[...chapter.focus.map(x=>({kind:"FOCUS",text:x})),...chapter.patterns.map(x=>({kind:"PATTERN",text:x})),...chapter.formulas.map(x=>({kind:"FORMULA",text:`${x.symbol} — ${x.relation} (${x.unit})`}))];
  const reactorItem=reactorItems[reactorIndex%reactorItems.length];
  const nextReactor=()=>setReactorIndex(v=>(v+1)%reactorItems.length);
