@@ -136,7 +136,23 @@
             "explanation": "Ketumpatan ialah jisim bahagi isipadu, jadi unit SI ialah kg/m³."
           }
         ]
-      }
+      },
+      "slogan": "MEASURE RIGHT → MARKS RIGHT",
+      "focus": [
+        "SI units + prefixes and unit conversion",
+        "Scalar vs vector — especially distance/displacement and speed/velocity",
+        "Accuracy, precision, sensitivity and zero error",
+        "Significant figures and uncertainty",
+        "Graph/measurement interpretation and gradient"
+      ],
+      "patterns": [
+        "State the SI unit / classify a quantity as scalar or vector.",
+        "Convert a value between prefixes or non-SI units before calculation.",
+        "Read an instrument diagram and give the correct reading, including zero correction.",
+        "Compare accuracy, precision, sensitivity or reliability from given measurements.",
+        "Calculate percentage uncertainty / uncertainty from repeated readings when required.",
+        "Interpret a graph from an experiment: identify gradient, intercept or relationship."
+      ]
     },
     {
       "id": "F4_C2",
@@ -289,7 +305,23 @@
             "explanation": "F = ma = 2 × 3 = 6 N."
           }
         ]
-      }
+      },
+      "slogan": "DRAW THE FORCES → THEN CALCULATE",
+      "focus": [
+        "Newton's laws and resultant force",
+        "Motion graphs: displacement-time and velocity-time",
+        "Equations of linear motion",
+        "Momentum and impulse",
+        "Free-body diagrams, equilibrium and collisions"
+      ],
+      "patterns": [
+        "Describe motion from a displacement-time or velocity-time graph.",
+        "Calculate acceleration, distance or final velocity using an equation of motion.",
+        "Draw/identify forces acting on an object and determine the resultant force.",
+        "Use F = ma in a horizontal/vertical situation and state the direction of acceleration.",
+        "Calculate momentum or impulse and apply conservation of momentum to a collision.",
+        "Explain Newton's third-law force pairs — equal magnitude, opposite direction, different objects."
+      ]
     },
     {
       "id": "F4_C3",
@@ -408,7 +440,23 @@
             "explanation": "Keamatan medan graviti ialah daya per unit jisim."
           }
         ]
-      }
+      },
+      "slogan": "GRAVITY NEVER FORGETS THE UNITS",
+      "focus": [
+        "Gravitational field strength and weight",
+        "Newton's law of universal gravitation",
+        "Satellite/orbital motion",
+        "Kepler's laws",
+        "Escape velocity and geostationary satellites"
+      ],
+      "patterns": [
+        "Calculate weight from mass and gravitational field strength.",
+        "Compare gravitational force when mass or separation changes.",
+        "Use F = GMm/r² and identify which distance must be used.",
+        "Explain why a satellite remains in orbit using gravitational force as centripetal force.",
+        "Compare orbital period, orbital radius and speed qualitatively or quantitatively.",
+        "Explain characteristics/uses of a geostationary satellite and conditions for its orbit."
+      ]
     },
     {
       "id": "F4_C4",
@@ -563,7 +611,23 @@
             "explanation": "Hukum Boyle: PV malar, jadi tekanan menjadi separuh."
           }
         ]
-      }
+      },
+      "slogan": "HEAT FLOWS → ENERGY SHOWS",
+      "focus": [
+        "Thermal equilibrium and temperature",
+        "Specific heat capacity",
+        "Specific latent heat",
+        "Gas laws and pressure-temperature relationships",
+        "Heating/cooling graphs and energy transfer"
+      ],
+      "patterns": [
+        "Calculate heat energy using Q = mcΔθ and identify the correct temperature change.",
+        "Use Q = ml for melting/boiling or other phase changes.",
+        "Interpret a heating/cooling curve and identify temperature changes versus latent-heat regions.",
+        "Explain why different materials require different energy for the same temperature rise.",
+        "Use gas-law relationships and keep temperature in kelvin where required.",
+        "Plan/analyse a specific heat capacity or latent heat experiment, including variables and precautions."
+      ]
     },
     {
       "id": "F4_C5",
@@ -708,7 +772,23 @@
             "explanation": "Bunyi ialah gelombang mekanik dan memerlukan medium."
           }
         ]
-      }
+      },
+      "slogan": "WAVES: READ THE GRAPH, READ THE MARKS",
+      "focus": [
+        "Wave terms: amplitude, wavelength, frequency, period",
+        "v = fλ",
+        "Transverse vs longitudinal waves",
+        "Reflection, refraction, diffraction and interference",
+        "Wavefronts and real-world applications"
+      ],
+      "patterns": [
+        "Read wavelength/amplitude/frequency/period from a wave diagram.",
+        "Calculate wave speed, frequency or wavelength using v = fλ.",
+        "Distinguish transverse and longitudinal waves using particle vibration direction.",
+        "Explain how wavelength, frequency and speed change during refraction.",
+        "Describe/interpret diffraction or interference and predict what happens when slit/gap width changes.",
+        "Interpret an experimental wave graph and identify the relationship between variables."
+      ]
     },
     {
       "id": "F4_C6",
@@ -797,7 +877,8 @@
       "experiments": [
         {
           "title": "Menentukan indeks biasan blok kaca",
-          "variables": {            "manipulated": "sudut tuju",
+          "variables": {
+            "manipulated": "sudut tuju",
             "responding": "sudut biasan",
             "constant": "blok, warna cahaya dan keadaan permukaan"
           },
@@ -861,7 +942,23 @@
             "explanation": "P = 1/f = 1/0.50 = 2 D."
           }
         ]
-      }
+      },
+      "slogan": "RAY DIAGRAM FIRST. FORMULA SECOND.",
+      "focus": [
+        "Reflection laws and ray diagrams",
+        "Refraction and refractive index",
+        "Total internal reflection",
+        "Lenses and image formation",
+        "Optical instruments and applications"
+      ],
+      "patterns": [
+        "Draw a correct reflected/refracted ray with normal and labelled angles.",
+        "Calculate refractive index or an angle using Snell's law when applicable.",
+        "Determine whether total internal reflection occurs and state its conditions.",
+        "Use the lens formula / magnification relationship with correct sign or image conventions used in the syllabus.",
+        "Describe image characteristics from a ray diagram: real/virtual, upright/inverted, magnified/diminished.",
+        "Explain applications such as optical fibre, endoscope, camera, microscope or telescope using the relevant optical principle."
+      ]
     },
     {
       "id": "F5_C1",
@@ -989,7 +1086,23 @@
             "explanation": "Daripada F = kx, k ialah kecerunan graf F-x."
           }
         ]
-      }
+      },
+      "slogan": "FORCE + ENERGY + MOMENTUM = BIG MARKS",
+      "focus": [
+        "Impulse and momentum",
+        "Work, energy and power",
+        "Elasticity and Hooke's law",
+        "Circular motion and centripetal force",
+        "Rotational equilibrium / moments"
+      ],
+      "patterns": [
+        "Calculate momentum and impulse from force-time or momentum-time information.",
+        "Apply conservation of momentum to explosions or collisions.",
+        "Calculate work done, kinetic/potential energy or power from a situation.",
+        "Interpret a force-extension graph and determine spring constant or elastic behaviour.",
+        "Calculate centripetal force/speed/radius and identify the direction of centripetal acceleration.",
+        "Solve moment/equilibrium questions by taking moments about a suitable point."
+      ]
     },
     {
       "id": "F5_C2",
@@ -1143,7 +1256,23 @@
             "explanation": "Daripada F/A yang sama, luas lebih besar menghasilkan daya lebih besar."
           }
         ]
-      }
+      },
+      "slogan": "PRESSURE = FORCE ÷ AREA — NEVER LOSE THIS",
+      "focus": [
+        "Pressure in solids",
+        "Pressure in liquids",
+        "Pascal's principle and hydraulic systems",
+        "Atmospheric pressure",
+        "Archimedes' principle and buoyancy"
+      ],
+      "patterns": [
+        "Calculate pressure from force and contact area and explain the effect of changing area.",
+        "Use P = ρgh for liquid pressure and compare pressure at different depths.",
+        "Solve hydraulic-machine questions using equal pressure / force-area relationships.",
+        "Explain atmospheric-pressure effects using pressure differences.",
+        "Calculate buoyant force / upthrust from displaced fluid information.",
+        "Explain floating/sinking conditions using weight and upthrust."
+      ]
     },
     {
       "id": "F5_C3",
@@ -1307,7 +1436,23 @@
             "explanation": "I = V/R = 12/6 = 2 A."
           }
         ]
-      }
+      },
+      "slogan": "CIRCUIT → RULE → CALCULATION",
+      "focus": [
+        "Current, potential difference and resistance",
+        "Ohm's law",
+        "Series and parallel circuits",
+        "Electrical power and energy",
+        "EMF/internal resistance and safety"
+      ],
+      "patterns": [
+        "Calculate current, voltage or resistance using V = IR.",
+        "Determine total resistance in series or parallel and explain current/voltage distribution.",
+        "Read a circuit diagram and identify suitable meters and their connections.",
+        "Calculate electrical power/energy and interpret appliance ratings.",
+        "Analyse an I-V graph and identify ohmic/non-ohmic behaviour.",
+        "Explain household electrical safety such as fuse, earth wire, circuit breaker or correct wiring principles."
+      ]
     },
     {
       "id": "F5_C4",
@@ -1450,7 +1595,23 @@
             "explanation": "Voltan sekunder lebih tinggi apabila bilangan lilitan sekunder lebih banyak dalam transformer unggul."
           }
         ]
-      }
+      },
+      "slogan": "MAGNET → FLUX → INDUCED CURRENT",
+      "focus": [
+        "Magnetic fields and force on current-carrying conductors",
+        "Electromagnetic induction",
+        "Faraday's law and Lenz's law",
+        "Generators and transformers",
+        "AC/DC applications"
+      ],
+      "patterns": [
+        "Determine the direction of force/current/magnetic field using the correct hand rule.",
+        "Explain electromagnetic induction from changing magnetic flux.",
+        "Predict how induced emf changes when speed, turns or magnetic-field strength changes.",
+        "Explain Lenz's law as opposition to the change producing the induced effect.",
+        "Describe generator operation and energy transformation.",
+        "Solve transformer ratio questions and explain step-up/step-down uses and power considerations."
+      ]
     },
     {
       "id": "F5_C5",
@@ -1572,7 +1733,23 @@
             "explanation": "β = IC/IB = 20/0.2 = 100."
           }
         ]
-      }
+      },
+      "slogan": "ELECTRONICS: COMPONENT → FUNCTION → CIRCUIT",
+      "focus": [
+        "Semiconductor basics",
+        "Diodes and LED",
+        "Transistors as switches",
+        "Logic gates and truth tables",
+        "Sensors and electronic control circuits"
+      ],
+      "patterns": [
+        "Identify an electronic component from a symbol and state its function.",
+        "Explain diode behaviour and rectification in a circuit.",
+        "Use a transistor as an electronic switch and identify base/collector/emitter roles at syllabus level.",
+        "Complete or interpret a truth table for common logic gates.",
+        "Determine an output from a logic circuit for given inputs.",
+        "Explain a sensor-control application such as automatic lighting, temperature control or alarm systems."
+      ]
     },
     {
       "id": "F5_C6",
@@ -1596,7 +1773,8 @@
           "topic": "Separuh hayat dan aktiviti",
           "summary": "Separuh hayat ialah masa yang diperlukan untuk aktiviti atau bilangan nukleus belum reput berkurang kepada separuh.",
           "high_yield_notes": [
-            "Reputan individu adalah rawak tetapi kadar reputan populasi stabil secara statistik.",            "Selepas n separuh hayat, baki aktiviti A = A0(1/2)^n.",
+            "Reputan individu adalah rawak tetapi kadar reputan populasi stabil secara statistik.",
+            "Selepas n separuh hayat, baki aktiviti A = A0(1/2)^n.",
             "Separuh hayat boleh digunakan dalam pentarikhan radioaktif."
           ],
           "exam_traps": [
@@ -1699,7 +1877,23 @@
             "explanation": "Sinar gama ialah sinaran elektromagnet bertenaga tinggi."
           }
         ]
-      }
+      },
+      "slogan": "NUCLEAR PHYSICS: EQUATION + HALF-LIFE + SAFETY",
+      "focus": [
+        "Radioactivity and types of radiation",
+        "Decay and half-life",
+        "Nuclear equations",
+        "Mass defect and binding energy",
+        "Fission, fusion and nuclear-energy applications"
+      ],
+      "patterns": [
+        "Identify alpha, beta and gamma radiation from properties or penetration/ionisation information.",
+        "Complete a nuclear decay equation while conserving nucleon and proton numbers.",
+        "Read a decay graph and determine half-life or remaining quantity.",
+        "Compare radiation hazards and suitable shielding/detection methods.",
+        "Calculate mass defect/binding energy when relevant data are provided.",
+        "Explain nuclear fission/fusion, chain reaction and energy release, including basic safety/control ideas."
+      ]
     },
     {
       "id": "F5_C7",
@@ -1846,7 +2040,24 @@
             "explanation": "Frekuensi mesti mencapai atau melebihi frekuensi ambang sebelum fotoelektron boleh dipancarkan."
           }
         ]
-      }
+      },
+      "slogan": "QUANTUM: ENERGY ISN'T CONTINUOUS",
+      "focus": [
+        "Photon energy E = hf",
+        "Photoelectric effect",
+        "Work function and threshold frequency",
+        "de Broglie wavelength",
+        "Wave-particle duality and electron diffraction"
+      ],
+      "patterns": [
+        "Calculate photon energy from frequency or wavelength.",
+        "Explain why increasing light intensity does not increase maximum photoelectron kinetic energy when frequency is fixed.",
+        "Determine threshold frequency/work function or maximum kinetic energy from photoelectric data.",
+        "Interpret a photoelectric-effect graph and identify threshold behaviour.",
+        "Use de Broglie relation to compare particle wavelength when momentum changes.",
+        "Explain electron diffraction as evidence for wave behaviour while photons/electrons also show particle behaviour."
+      ]
     }
-  ]
+  ],
+  "exam_slogan": "KNOW THE CONCEPT → SPOT THE PATTERN → WRITE THE UNIT → CHECK THE ANSWER"
 }
