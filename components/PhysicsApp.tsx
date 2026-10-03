@@ -8,7 +8,7 @@ const num=(n:number)=>String(n).padStart(2,"0");
 export default function PhysicsApp(){
  const [selected,setSelected]=useState(chapters[0]?.id??"F4_C1");
  const [query,setQuery]=useState("");
- const [tab,setTab]=useState<"notes"|"formulas"|"experiments"|"study">("notes");
+ const [tab,setTab]=useState<"notes"|"exam"|"formulas"|"experiments"|"study">("notes");
  const [flipped,setFlipped]=useState<Record<string,boolean>>({});
  const [answers,setAnswers]=useState<Record<string,string>>({});
  const chapter=chapters.find(c=>c.id===selected)??chapters[0];
