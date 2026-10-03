@@ -1,0 +1,1000 @@
+{
+  "metadata": {
+    "curriculum": "KSSM Fizik Malaysia",
+    "subject_code": "4531",
+    "forms": [
+      4,
+      5
+    ],
+    "chapter_count": 13,
+    "source_basis": "DSKP KSSM Fizik Tingkatan 4 dan 5 and KSSM Physics textbooks",
+    "language": "ms-MY"
+  },
+  "chapters": [
+    {
+      "id": "F4_C1",
+      "chapter_number": 1,
+      "title": "Pengukuran",
+      "core_concepts": [
+        {
+          "topic": "Kuantiti fizik dan unit SI",
+          "summary": "Kuantiti fizik mempunyai magnitud dan unit. Kuantiti asas tidak diterbitkan daripada kuantiti fizik lain, manakala kuantiti terbitan dibina daripada kuantiti asas.",
+          "high_yield_notes": [
+            "Tujuh kuantiti asas SI: panjang m, jisim kg, masa s, suhu K, arus A, kuantiti bahan mol, keamatan berluminositi cd.",
+            "Contoh terbitan: luas m², isipadu m³, laju m s⁻¹, daya N = kg m s⁻², ketumpatan kg m⁻³.",
+            "Tukar semua nilai kepada unit SI sebelum pengiraan jika soalan memerlukan unit SI."
+          ],
+          "exam_traps": [
+            "Menganggap N, J atau Pa sebagai kuantiti asas.",
+            "Mencampurkan unit cm, g atau minit dengan unit SI tanpa penukaran."
+          ]
+        },
+        {
+          "topic": "Skalar dan vektor",
+          "summary": "Skalar mempunyai magnitud sahaja; vektor mempunyai magnitud dan arah.",
+          "high_yield_notes": [
+            "Contoh skalar: jarak, laju, jisim, masa, suhu, tenaga.",
+            "Contoh vektor: sesaran, halaju, pecutan, daya, momentum, berat.",
+            "Arah mesti dinyatakan untuk jawapan vektor apabila relevan."
+          ],
+          "exam_traps": [
+            "Menganggap laju dan halaju sama.",
+            "Memberi arah kepada kuantiti skalar."
+          ]
+        },
+        {
+          "topic": "Angka bererti dan ketidakpastian",
+          "summary": "Angka bererti menunjukkan ketepatan bermakna sesuatu bacaan. Ketidakpastian menggambarkan julat nilai yang munasabah bagi pengukuran.",
+          "high_yield_notes": [
+            "Sifar di antara digit bukan sifar ialah angka bererti.",
+            "Sifar di hadapan nombor perpuluhan bukan angka bererti; sifar di belakang nombor perpuluhan ialah angka bererti.",
+            "Untuk alat analog, bacaan biasanya diambil pada skala terkecil yang sesuai dan ralat paralaks dielakkan."
+          ],
+          "exam_traps": [
+            "Membundarkan terlalu awal dalam pengiraan.",
+            "Mengira semua sifar sebagai angka bererti."
+          ]
+        },
+        {
+          "topic": "Graf dan penyiasatan saintifik",
+          "summary": "Graf digunakan untuk menentukan hubungan antara pemboleh ubah dan mendapatkan kesimpulan daripada data eksperimen.",
+          "high_yield_notes": [
+            "Paksi mesti berlabel dengan kuantiti dan unit.",
+            "Gunakan skala yang sesuai dan garis penyuaian terbaik.",
+            "Kecerunan graf boleh mewakili pemalar fizik atau membantu mendapatkan nilai fizik tertentu."
+          ],
+          "exam_traps": [
+            "Menghubungkan titik satu demi satu apabila garis penyuaian terbaik diperlukan.",
+            "Tidak memasukkan unit pada paksi atau kecerunan."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "rho = m/V",
+          "relation": "ketumpatan daripada jisim dan isipadu",
+          "unit": "kg m^-3"
+        },
+        {
+          "symbol": "gradient = Delta y/Delta x",
+          "relation": "kecerunan graf",
+          "unit": "bergantung pada paksi"
+        },
+        {
+          "symbol": "T = 2pi sqrt(l/g)",
+          "relation": "tempoh ayunan bandul ringkas",
+          "unit": "s"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Bandul ringkas: hubungan panjang dengan tempoh ayunan",
+          "variables": {
+            "manipulated": "panjang bandul, l",
+            "responding": "tempoh ayunan, T",
+            "constant": "jisim beban, amplitud kecil dan keadaan peralatan"
+          },
+          "key_takeaway": "Graf T² melawan l adalah linear; kecerunan berkaitan dengan g melalui T² = (4pi²/g)l."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah tujuh kuantiti asas SI?",
+            "answer": "Panjang, jisim, masa, suhu, arus elektrik, kuantiti bahan dan keamatan berluminositi."
+          },
+          {
+            "question": "Apakah beza skalar dan vektor?",
+            "answer": "Skalar mempunyai magnitud sahaja; vektor mempunyai magnitud dan arah."
+          },
+          {
+            "question": "Mengapa garis penyuaian terbaik digunakan?",
+            "answer": "Untuk menunjukkan trend keseluruhan data dan mengurangkan kesan variasi rawak pada bacaan."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Yang manakah kuantiti vektor?",
+            "options": [
+              "Jarak",
+              "Laju",
+              "Masa",
+              "Halaju"
+            ],
+            "correct_answer": "Halaju",
+            "explanation": "Halaju mempunyai magnitud dan arah, jadi ia ialah vektor."
+          },
+          {
+            "question": "Unit SI bagi ketumpatan ialah...",
+            "options": [
+              "kg m^-3",
+              "kg m^-2",
+              "N m^-2",
+              "g cm^-3"
+            ],
+            "correct_answer": "kg m^-3",
+            "explanation": "Ketumpatan ialah jisim bahagi isipadu, jadi unit SI ialah kg/m³."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4_C2",
+      "chapter_number": 2,
+      "title": "Daya dan Gerakan I",
+      "core_concepts": [
+        {
+          "topic": "Gerakan linear",
+          "summary": "Gerakan linear diterangkan menggunakan jarak, sesaran, laju, halaju dan pecutan.",
+          "high_yield_notes": [
+            "Laju purata = jumlah jarak / jumlah masa.",
+            "Halaju purata = sesaran / masa.",
+            "Pecutan ialah kadar perubahan halaju terhadap masa."
+          ],
+          "exam_traps": [
+            "Menggunakan jarak apabila soalan meminta sesaran.",
+            "Menggunakan laju apabila arah atau tanda diperlukan."
+          ]
+        },
+        {
+          "topic": "Graf gerakan dan jatuh bebas",
+          "summary": "Graf sesaran-masa memberi halaju melalui kecerunan; graf halaju-masa memberi pecutan melalui kecerunan dan sesaran melalui luas di bawah graf.",
+          "high_yield_notes": [
+            "Kecerunan graf s-t = v.",
+            "Kecerunan graf v-t = a.",
+            "Luas di bawah graf v-t = sesaran.",
+            "Jatuh bebas berhampiran Bumi mempunyai pecutan kira-kira g tanpa mengambil kira rintangan udara."
+          ],
+          "exam_traps": [
+            "Menggunakan luas graf s-t sebagai sesaran.",
+            "Menganggap objek jatuh bebas mempunyai halaju malar."
+          ]
+        },
+        {
+          "topic": "Inersia, momentum dan impuls",
+          "summary": "Inersia ialah kecenderungan objek mengekalkan keadaan gerakannya. Momentum berkaitan jisim dan halaju; impuls ialah perubahan momentum.",
+          "high_yield_notes": [
+            "Momentum ialah kuantiti vektor.",
+            "Daya impuls purata berkadar dengan perubahan momentum dan berkadar songsang dengan masa interaksi.",
+            "Dalam sistem terasing, jumlah momentum sebelum = jumlah momentum selepas."
+          ],
+          "exam_traps": [
+            "Menganggap momentum ialah skalar.",
+            "Menggunakan jisim akhir atau awal secara salah dalam masalah perlanggaran."
+          ]
+        },
+        {
+          "topic": "Daya dan berat",
+          "summary": "Daya ialah tindakan yang boleh mengubah gerakan atau bentuk objek. Berat ialah daya graviti pada objek.",
+          "high_yield_notes": [
+            "Hukum Newton I: daya paduan sifar → objek pegun atau bergerak dengan halaju seragam.",
+            "Hukum Newton II: F = ma.",
+            "Hukum Newton III melibatkan pasangan daya yang sama magnitud dan bertentangan arah pada objek berbeza.",
+            "Berat W = mg."
+          ],
+          "exam_traps": [
+            "Menganggap pasangan tindakan-balas bertindak pada objek sama.",
+            "Menganggap berat dan jisim mempunyai unit yang sama."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "v = s/t",
+          "relation": "halaju purata bagi gerakan sehala",
+          "unit": "m s^-1"
+        },
+        {
+          "symbol": "a = Delta v/Delta t",
+          "relation": "pecutan",
+          "unit": "m s^-2"
+        },
+        {
+          "symbol": "p = mv",
+          "relation": "momentum",
+          "unit": "kg m s^-1"
+        },
+        {
+          "symbol": "F = ma",
+          "relation": "daya paduan",
+          "unit": "N"
+        },
+        {
+          "symbol": "impuls = F Delta t = Delta p",
+          "relation": "impuls/perubahan momentum",
+          "unit": "N s atau kg m s^-1"
+        },
+        {
+          "symbol": "W = mg",
+          "relation": "berat",
+          "unit": "N"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Gerakan jatuh bebas: menentukan pecutan graviti",
+          "variables": {
+            "manipulated": "masa jatuh / keadaan jatuh",
+            "responding": "pecutan graviti, g",
+            "constant": "ketinggian dan alat masa"
+          },
+          "key_takeaway": "Data gerakan boleh digunakan untuk menentukan g; rintangan udara menyebabkan penyimpangan daripada model ideal."
+        },
+        {
+          "title": "Momentum: perlanggaran dua troli",
+          "variables": {
+            "manipulated": "jisim atau halaju awal yang dikaji",
+            "responding": "jumlah momentum sebelum dan selepas",
+            "constant": "keadaan landasan dan sistem troli"
+          },
+          "key_takeaway": "Dalam sistem yang hampir terasing, jumlah momentum dikekalkan."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah beza jarak dan sesaran?",
+            "answer": "Jarak ialah panjang laluan; sesaran ialah perubahan kedudukan dalam arah tertentu."
+          },
+          {
+            "question": "Apakah maksud daya paduan sifar?",
+            "answer": "Tiada pecutan: objek kekal pegun atau bergerak dengan halaju seragam."
+          },
+          {
+            "question": "Apakah prinsip keabadian momentum?",
+            "answer": "Jumlah momentum sistem terasing kekal sama sebelum dan selepas interaksi."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Luas di bawah graf halaju-masa mewakili...",
+            "options": [
+              "Pecutan",
+              "Sesaran",
+              "Halaju",
+              "Daya"
+            ],
+            "correct_answer": "Sesaran",
+            "explanation": "Untuk graf v-t, luas di bawah graf memberikan sesaran."
+          },
+          {
+            "question": "Sebuah objek berjisim 2 kg mengalami pecutan 3 m s^-2. Daya paduannya ialah...",
+            "options": [
+              "1.5 N",
+              "5 N",
+              "6 N",
+              "9 N"
+            ],
+            "correct_answer": "6 N",
+            "explanation": "F = ma = 2 × 3 = 6 N."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4_C3",
+      "chapter_number": 3,
+      "title": "Kegravitian",
+      "core_concepts": [
+        {
+          "topic": "Hukum Kegravitian Semesta Newton",
+          "summary": "Dua jasad berjisim mengalami daya tarikan graviti yang berkadar terus dengan hasil darab jisim dan berkadar songsang dengan kuasa dua jarak antara pusatnya.",
+          "high_yield_notes": [
+            "Daya graviti sentiasa menarik.",
+            "Jika jarak pusat ke pusat digandakan, daya menjadi satu perempat.",
+            "G ialah pemalar kegravitian sejagat."
+          ],
+          "exam_traps": [
+            "Menggunakan jejari permukaan apabila jarak sebenar antara pusat jasad diperlukan tanpa memahami konteks.",
+            "Menganggap daya graviti berkadar songsang dengan r sahaja."
+          ]
+        },
+        {
+          "topic": "Medan graviti dan pecutan graviti",
+          "summary": "Medan graviti ialah kawasan yang mengalami daya graviti. Keamatan medan graviti di permukaan planet berkaitan dengan jisim planet dan jaraknya dari pusat.",
+          "high_yield_notes": [
+            "g ialah daya graviti per unit jisim.",
+            "Berat berubah mengikut g; jisim tidak berubah apabila berpindah planet.",
+            "g berkurang apabila semakin jauh dari pusat Bumi."
+          ],
+          "exam_traps": [
+            "Menganggap jisim berubah di Bulan.",
+            "Menggunakan g = 9.81 m s^-2 untuk semua lokasi tanpa melihat maklumat soalan."
+          ]
+        },
+        {
+          "topic": "Hukum Kepler dan satelit",
+          "summary": "Pergerakan planet dan satelit boleh diterangkan dengan hukum Kepler serta konsep orbit.",
+          "high_yield_notes": [
+            "Hukum Kepler ketiga: kuasa dua tempoh orbit berkadar terus dengan kuasa tiga jejari orbit bagi orbit mengelilingi jasad pusat yang sama.",
+            "Satelit geopegun mempunyai tempoh orbit kira-kira 24 jam dan berada di atas khatulistiwa dengan arah orbit yang sama seperti putaran Bumi.",
+            "Satelit orbit rendah mempunyai tempoh lebih pendek dan sesuai untuk pemerhatian Bumi/komunikasi tertentu."
+          ],
+          "exam_traps": [
+            "Menganggap semua satelit geopegun boleh berada di mana-mana latitud.",
+            "Mengelirukan jejari orbit dengan ketinggian dari permukaan Bumi."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "F = Gm1m2/r^2",
+          "relation": "daya graviti antara dua jasad",
+          "unit": "N"
+        },
+        {
+          "symbol": "g = GM/r^2",
+          "relation": "keamatan medan graviti/pecutan graviti pada jarak r",
+          "unit": "N kg^-1 atau m s^-2"
+        },
+        {
+          "symbol": "T^2/r^3 = constant",
+          "relation": "hubungan Kepler ketiga bagi sistem yang sama",
+          "unit": "s^2 m^-3"
+        },
+        {
+          "symbol": "v = 2pi r/T",
+          "relation": "halaju orbit seragam",
+          "unit": "m s^-1"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Menentukan nilai pecutan graviti, g",
+          "variables": {
+            "manipulated": "panjang bandul",
+            "responding": "tempoh ayunan",
+            "constant": "jisim beban dan amplitud kecil"
+          },
+          "key_takeaway": "Kecerunan graf T²-l digunakan untuk mendapatkan g."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Bagaimana daya graviti berubah jika jarak pusat digandakan?",
+            "answer": "Menjadi satu perempat daripada nilai asal."
+          },
+          {
+            "question": "Adakah jisim seseorang berubah di Bulan?",
+            "answer": "Tidak. Jisim kekal; berat berubah kerana nilai g berbeza."
+          },
+          {
+            "question": "Apakah ciri utama satelit geopegun?",
+            "answer": "Tempoh kira-kira 24 jam, orbit di satah khatulistiwa dan arah orbit sama dengan putaran Bumi."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Jika jarak dua jasad digandakan, daya graviti menjadi...",
+            "options": [
+              "2F",
+              "F/2",
+              "F/4",
+              "4F"
+            ],
+            "correct_answer": "F/4",
+            "explanation": "Daya graviti berkadar songsang dengan r²."
+          },
+          {
+            "question": "Unit keamatan medan graviti ialah...",
+            "options": [
+              "N kg^-1",
+              "N m",
+              "kg N^-1",
+              "J s"
+            ],
+            "correct_answer": "N kg^-1",
+            "explanation": "Keamatan medan graviti ialah daya per unit jisim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4_C4",
+      "chapter_number": 4,
+      "title": "Haba",
+      "core_concepts": [
+        {
+          "topic": "Keseimbangan terma",
+          "summary": "Dua objek berada dalam keseimbangan terma apabila suhu sama dan tiada pemindahan haba bersih antara objek.",
+          "high_yield_notes": [
+            "Haba ialah tenaga yang dipindahkan akibat perbezaan suhu.",
+            "Suhu ialah ukuran darjah kepanasan dan berkaitan dengan tenaga kinetik purata zarah.",
+            "Haba mengalir secara bersih dari suhu tinggi ke suhu rendah."
+          ],
+          "exam_traps": [
+            "Mengatakan haba ialah suhu.",
+            "Mengatakan haba sentiasa mengalir dari objek berjisim besar ke kecil."
+          ]
+        },
+        {
+          "topic": "Muatan haba tentu",
+          "summary": "Muatan haba tentu ialah tenaga yang diperlukan untuk menaikkan suhu 1 kg bahan sebanyak 1 K.",
+          "high_yield_notes": [
+            "Bahan dengan c besar memerlukan lebih banyak tenaga untuk perubahan suhu yang sama.",
+            "Tiada perubahan keadaan berlaku dalam formula Q = mcΔθ."
+          ],
+          "exam_traps": [
+            "Menggunakan c untuk proses perubahan keadaan.",
+            "Tidak menukar g atau kJ kepada unit yang sesuai."
+          ]
+        },
+        {
+          "topic": "Haba pendam tentu",
+          "summary": "Haba pendam tentu ialah tenaga per unit jisim yang diperlukan untuk menukar keadaan tanpa perubahan suhu.",
+          "high_yield_notes": [
+            "Q = ml.",
+            "Peleburan dan pembekuan menggunakan haba pendam tentu pelakuran; pendidihan dan pemeluwapan menggunakan haba pendam tentu pengewapan.",
+            "Semasa perubahan keadaan, suhu idealnya kekal malar walaupun tenaga dipindahkan."
+          ],
+          "exam_traps": [
+            "Menggunakan Δθ dalam Q = ml.",
+            "Menganggap suhu mesti naik semasa pendidihan pada tekanan tetap."
+          ]
+        },
+        {
+          "topic": "Hukum gas",
+          "summary": "Untuk jisim gas tetap, tekanan, isipadu dan suhu mutlak mempunyai hubungan tertentu.",
+          "high_yield_notes": [
+            "Boyle: pada suhu malar, PV = malar.",
+            "Charles: pada tekanan malar, V/T = malar.",
+            "Tekanan: pada isipadu malar, P/T = malar.",
+            "Suhu gas dalam hukum gas mesti dalam Kelvin."
+          ],
+          "exam_traps": [
+            "Menggunakan °C terus dalam nisbah V/T atau P/T.",
+            "Mencampurkan hukum gas dengan pemboleh ubah yang tidak dikekalkan malar."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "Q = mc Delta theta",
+          "relation": "haba untuk perubahan suhu",
+          "unit": "J"
+        },
+        {
+          "symbol": "Q = ml",
+          "relation": "haba semasa perubahan keadaan",
+          "unit": "J"
+        },
+        {
+          "symbol": "P1V1 = P2V2",
+          "relation": "hukum Boyle pada suhu malar",
+          "unit": "Pa m^3"
+        },
+        {
+          "symbol": "V1/T1 = V2/T2",
+          "relation": "hukum Charles pada tekanan malar",
+          "unit": "m^3 K^-1"
+        },
+        {
+          "symbol": "P1/T1 = P2/T2",
+          "relation": "hubungan tekanan-suhu pada isipadu malar",
+          "unit": "Pa K^-1"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Menentukan muatan haba tentu air/aluminium",
+          "variables": {
+            "manipulated": "jenis bahan atau keadaan pemanasan",
+            "responding": "perubahan suhu untuk tenaga dibekalkan",
+            "constant": "jisim, kuasa pemanas dan masa pemanasan"
+          },
+          "key_takeaway": "Gunakan Q = mcΔθ; kehilangan haba ke persekitaran perlu diminimumkan/diambil kira."
+        },
+        {
+          "title": "Mengkaji hubungan tekanan dan isipadu gas",
+          "variables": {
+            "manipulated": "isipadu gas",
+            "responding": "tekanan gas",
+            "constant": "suhu dan jisim gas"
+          },
+          "key_takeaway": "Pada suhu malar, P berkadar songsang dengan V."
+        },
+        {
+          "title": "Mengkaji hubungan isipadu dan suhu gas",
+          "variables": {
+            "manipulated": "suhu mutlak",
+            "responding": "isipadu gas",
+            "constant": "tekanan dan jisim gas"
+          },
+          "key_takeaway": "Pada tekanan malar, V berkadar terus dengan T dalam Kelvin."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah maksud muatan haba tentu?",
+            "answer": "Tenaga yang diperlukan untuk menaikkan suhu 1 kg bahan sebanyak 1 K."
+          },
+          {
+            "question": "Apa berlaku kepada suhu semasa perubahan keadaan ideal?",
+            "answer": "Suhu kekal malar sementara haba digunakan sebagai haba pendam."
+          },
+          {
+            "question": "Mengapa Kelvin digunakan dalam hukum gas?",
+            "answer": "Hubungan gas memerlukan suhu mutlak, bukan skala Celsius."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Formula bagi haba pendam tentu ialah...",
+            "options": [
+              "Q = mcΔθ",
+              "Q = ml",
+              "P = F/A",
+              "E = Pt"
+            ],
+            "correct_answer": "Q = ml",
+            "explanation": "Haba pendam bergantung pada jisim dan haba pendam tentu."
+          },
+          {
+            "question": "Jika isipadu gas digandakan pada suhu malar, tekanannya menjadi...",
+            "options": [
+              "2 kali",
+              "4 kali",
+              "1/2 kali",
+              "Tidak berubah"
+            ],
+            "correct_answer": "1/2 kali",
+            "explanation": "Hukum Boyle: PV malar, jadi tekanan menjadi separuh."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4_C5",
+      "chapter_number": 5,
+      "title": "Gelombang",
+      "core_concepts": [
+        {
+          "topic": "Asas gelombang",
+          "summary": "Gelombang ialah getaran yang memindahkan tenaga dari satu tempat ke tempat lain tanpa pemindahan bersih jirim secara keseluruhan.",
+          "high_yield_notes": [
+            "Amplitud berkaitan tenaga gelombang.",
+            "Frekuensi ialah bilangan ayunan per saat; tempoh ialah masa satu ayunan.",
+            "Gelombang melintang mempunyai getaran serenjang arah perambatan; gelombang membujur selari."
+          ],
+          "exam_traps": [
+            "Mengatakan zarah medium bergerak bersama gelombang dari sumber ke penerima.",
+            "Mengelirukan frekuensi dengan laju gelombang."
+          ]
+        },
+        {
+          "topic": "Pelembapan dan resonans",
+          "summary": "Pelembapan mengurangkan amplitud akibat kehilangan tenaga. Resonans berlaku apabila frekuensi daya pemacu menghampiri frekuensi asli sistem.",
+          "high_yield_notes": [
+            "Resonans menghasilkan amplitud maksimum apabila keadaan sesuai.",
+            "Pelembapan lebih kuat mengurangkan amplitud dan boleh mengurangkan puncak resonans."
+          ],
+          "exam_traps": [
+            "Menganggap resonans bermaksud frekuensi pemacu sentiasa lebih besar daripada frekuensi asli.",
+            "Menganggap resonans tidak melibatkan pemindahan tenaga."
+          ]
+        },
+        {
+          "topic": "Fenomena gelombang",
+          "summary": "Pantulan, pembiasan, pembelauan dan interferens menunjukkan tingkah laku gelombang.",
+          "high_yield_notes": [
+            "Pantulan: sudut tuju = sudut pantulan.",
+            "Pembiasan: arah/laju gelombang berubah apabila memasuki medium berbeza; frekuensi kekal.",
+            "Pembelauan lebih ketara apabila saiz celah hampir sama dengan panjang gelombang.",
+            "Interferens konstruktif menghasilkan amplitud lebih besar; destruktif mengurangkan amplitud."
+          ],
+          "exam_traps": [
+            "Mengatakan frekuensi berubah apabila gelombang dibiaskan.",
+            "Menganggap pembelauan hanya berlaku pada cahaya."
+          ]
+        },
+        {
+          "topic": "Gelombang elektromagnet",
+          "summary": "Gelombang elektromagnet tidak memerlukan medium dan terdiri daripada medan elektrik dan magnet yang berayun berserenjang.",
+          "high_yield_notes": [
+            "Dalam vakum semua gelombang elektromagnet bergerak pada c.",
+            "Urutan frekuensi meningkat: radio, mikro, inframerah, cahaya nampak, ultraungu, sinar-X, gama.",
+            "Semakin tinggi frekuensi, semakin tinggi tenaga foton."
+          ],
+          "exam_traps": [
+            "Menyatakan gelombang bunyi ialah elektromagnet.",
+            "Menterbalikkan urutan frekuensi spektrum."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "v = f lambda",
+          "relation": "laju gelombang",
+          "unit": "m s^-1"
+        },
+        {
+          "symbol": "T = 1/f",
+          "relation": "tempoh daripada frekuensi",
+          "unit": "s"
+        },
+        {
+          "symbol": "n = sin i/sin r",
+          "relation": "indeks biasan relatif dalam bentuk Hukum Snell",
+          "unit": "tiada unit"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Mengkaji pembiasan gelombang air",
+          "variables": {
+            "manipulated": "kedalaman/medium atau sudut tuju",
+            "responding": "arah dan panjang gelombang",
+            "constant": "frekuensi sumber"
+          },
+          "key_takeaway": "Apabila gelombang memasuki kawasan kedalaman berbeza, laju dan panjang gelombang berubah tetapi frekuensi kekal."
+        },
+        {
+          "title": "Mengkaji pembelauan gelombang air",
+          "variables": {
+            "manipulated": "lebar celah",
+            "responding": "corak dan ketara pembelauan",
+            "constant": "frekuensi dan kedalaman air"
+          },
+          "key_takeaway": "Pembelauan paling ketara apabila lebar celah setanding dengan panjang gelombang."
+        },
+        {
+          "title": "Mengkaji interferens gelombang air",
+          "variables": {
+            "manipulated": "jarak antara sumber/ciri sumber",
+            "responding": "jarak atau corak antinod/nod",
+            "constant": "frekuensi dan kedalaman medium"
+          },
+          "key_takeaway": "Superposisi menghasilkan kawasan interferens konstruktif dan destruktif."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah hubungan v, f dan λ?",
+            "answer": "v = fλ."
+          },
+          {
+            "question": "Apakah yang kekal apabila gelombang dibiaskan?",
+            "answer": "Frekuensi kekal; laju dan panjang gelombang boleh berubah."
+          },
+          {
+            "question": "Bila pembelauan paling ketara?",
+            "answer": "Apabila saiz celah atau halangan hampir sama dengan panjang gelombang."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Jika frekuensi gelombang meningkat dan laju kekal, panjang gelombang...",
+            "options": [
+              "Meningkat",
+              "Berkurang",
+              "Kekal",
+              "Menjadi sifar"
+            ],
+            "correct_answer": "Berkurang",
+            "explanation": "Daripada v = fλ, λ = v/f."
+          },
+          {
+            "question": "Yang manakah bukan gelombang elektromagnet?",
+            "options": [
+              "Cahaya nampak",
+              "Gelombang mikro",
+              "Bunyi",
+              "Sinar-X"
+            ],
+            "correct_answer": "Bunyi",
+            "explanation": "Bunyi ialah gelombang mekanik dan memerlukan medium."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4_C6",
+      "chapter_number": 6,
+      "title": "Cahaya dan Optik",
+      "core_concepts": [
+        {
+          "topic": "Pembiasan cahaya",
+          "summary": "Pembiasan ialah perubahan arah cahaya apabila merentasi sempadan dua medium kerana lajunya berubah.",
+          "high_yield_notes": [
+            "Masuk ke medium lebih tumpat optik: cahaya membelok menghampiri normal.",
+            "Masuk ke medium kurang tumpat optik: cahaya membelok menjauhi normal.",
+            "Frekuensi cahaya kekal; panjang gelombang berubah."
+          ],
+          "exam_traps": [
+            "Mengukur sudut daripada permukaan, bukan normal.",
+            "Menganggap frekuensi berubah semasa pembiasan."
+          ]
+        },
+        {
+          "topic": "Pantulan dalam penuh",
+          "summary": "Pantulan dalam penuh berlaku apabila cahaya bergerak dari medium lebih tumpat optik ke kurang tumpat optik dan sudut tuju melebihi sudut genting.",
+          "high_yield_notes": [
+            "Syarat: medium lebih tumpat ke kurang tumpat dan i > c.",
+            "Pada sudut genting, sudut biasan ialah 90°.",
+            "Gentian optik menggunakan pantulan dalam penuh."
+          ],
+          "exam_traps": [
+            "Menganggap pantulan dalam penuh boleh berlaku dari udara ke kaca.",
+            "Menggunakan i < c untuk keadaan pantulan dalam penuh."
+          ]
+        },
+        {
+          "topic": "Kanta dan pembentukan imej",
+          "summary": "Kanta cembung boleh menumpukan sinar; kanta cekung mencapahkan sinar. Imej bergantung pada kedudukan objek.",
+          "high_yield_notes": [
+            "Untuk kanta cembung, objek di luar 2F menghasilkan imej nyata, songsang dan lebih kecil; antara F dan 2F menghasilkan imej nyata, songsang dan diperbesarkan; antara kanta dan F menghasilkan imej maya, tegak dan diperbesarkan.",
+            "Kanta cekung menghasilkan imej maya, tegak dan lebih kecil bagi objek nyata."
+          ],
+          "exam_traps": [
+            "Menyamakan fokus kanta dengan pusat optik.",
+            "Melukis sinar utama yang tidak mematuhi peraturan kanta."
+          ]
+        },
+        {
+          "topic": "Peralatan optik dan cermin sfera",
+          "summary": "Mikroskop, teleskop dan kamera menggunakan pembentukan imej oleh kanta. Cermin cekung/cembung menghasilkan imej mengikut kedudukan objek.",
+          "high_yield_notes": [
+            "Kuasa kanta berkadar songsang dengan panjang fokus dalam meter.",
+            "Cermin cembung menghasilkan imej maya, tegak dan lebih kecil bagi objek nyata.",
+            "Cermin cekung boleh menghasilkan imej nyata atau maya bergantung pada kedudukan objek."
+          ],
+          "exam_traps": [
+            "Menggunakan f dalam cm terus dalam P = 1/f tanpa menukar kepada m.",
+            "Mengelirukan imej nyata dengan imej maya pada skrin."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "n = sin i/sin r",
+          "relation": "indeks biasan",
+          "unit": "tiada unit"
+        },
+        {
+          "symbol": "sin c = 1/n",
+          "relation": "sudut genting apabila medium luar ialah udara",
+          "unit": "tiada unit"
+        },
+        {
+          "symbol": "1/f = 1/u + 1/v",
+          "relation": "formula kanta nipis",
+          "unit": "m^-1 jika panjang dalam m"
+        },
+        {
+          "symbol": "m = v/u = h_i/h_o",
+          "relation": "pembesaran linear kanta",
+          "unit": "tiada unit"
+        },
+        {
+          "symbol": "P = 1/f",
+          "relation": "kuasa kanta",
+          "unit": "dioptre, D"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Menentukan indeks biasan blok kaca",
+          "variables": {
+            "manipulated": "sudut tuju",
+            "responding": "sudut biasan",
+            "constant": "blok, warna cahaya dan keadaan permukaan"
+          },
+          "key_takeaway": "Gunakan n = sin i/sin r dan ukur sudut daripada normal."
+        },
+        {
+          "title": "Menentukan indeks biasan air tanpa paralaks",
+          "variables": {
+            "manipulated": "kedalaman objek/air",
+            "responding": "kedudukan imej tampak atau kedalaman nyata",
+            "constant": "keadaan bekas dan sumber cahaya"
+          },
+          "key_takeaway": "Kaedah tanpa paralaks boleh digunakan untuk mendapatkan indeks biasan air."
+        },
+        {
+          "title": "Mengkaji hubungan jarak objek dan imej kanta cembung",
+          "variables": {
+            "manipulated": "jarak objek, u",
+            "responding": "jarak imej, v",
+            "constant": "kanta yang sama dan keadaan optik"
+          },
+          "key_takeaway": "Data u dan v mematuhi formula kanta nipis dalam had pengukuran eksperimen."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah dua syarat pantulan dalam penuh?",
+            "answer": "Cahaya bergerak dari medium lebih tumpat optik ke kurang tumpat optik dan sudut tuju melebihi sudut genting."
+          },
+          {
+            "question": "Apakah imej kanta cembung apabila objek antara kanta dan F?",
+            "answer": "Imej maya, tegak dan diperbesarkan."
+          },
+          {
+            "question": "Apakah unit kuasa kanta?",
+            "answer": "Dioptre (D), iaitu m^-1."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Pada sudut genting, sudut biasan ialah...",
+            "options": [
+              "0°",
+              "45°",
+              "90°",
+              "180°"
+            ],
+            "correct_answer": "90°",
+            "explanation": "Takrif sudut genting ialah sudut tuju apabila sudut biasan mencapai 90°."
+          },
+          {
+            "question": "Jika f = 0.50 m, kuasa kanta ialah...",
+            "options": [
+              "0.5 D",
+              "1 D",
+              "2 D",
+              "50 D"
+            ],
+            "correct_answer": "2 D",
+            "explanation": "P = 1/f = 1/0.50 = 2 D."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5_C1",
+      "chapter_number": 1,
+      "title": "Daya dan Gerakan II",
+      "core_concepts": [
+        {
+          "topic": "Daya paduan dan leraian daya",
+          "summary": "Daya paduan ialah jumlah vektor semua daya. Satu daya boleh diuraikan kepada komponen yang saling berserenjang.",
+          "high_yield_notes": [
+            "Daya searah dijumlahkan; daya bertentangan ditolak mengikut tanda.",
+            "Untuk dua komponen serenjang, magnitud daya paduan boleh diperoleh menggunakan Pythagoras.",
+            "Komponen mendatar/menegak membantu analisis keseimbangan."
+          ],
+          "exam_traps": [
+            "Menambah magnitud tanpa mengambil arah.",
+            "Menggunakan sin dan cos pada sudut yang salah atau tidak menentukan paksi rujukan."
+          ]
+        },
+        {
+          "topic": "Keseimbangan daya",
+          "summary": "Objek berada dalam keseimbangan translasi apabila daya paduan sifar dan pecutan sifar.",
+          "high_yield_notes": [
+            "ΣF = 0 dalam setiap arah.",
+            "Objek boleh bergerak dengan halaju seragam dan masih berada dalam keseimbangan.",
+            "Rajah daya membantu mengenal pasti semua daya yang bertindak."
+          ],
+          "exam_traps": [
+            "Menganggap keseimbangan bermaksud objek mesti pegun.",
+            "Melupakan berat atau daya tindak balas normal."
+          ]
+        },
+        {
+          "topic": "Kekenyalan dan Hukum Hooke",
+          "summary": "Kekenyalan ialah keupayaan bahan kembali ke bentuk asal selepas daya dialihkan dalam had kenyal.",
+          "high_yield_notes": [
+            "Hukum Hooke: pemanjangan berkadar terus dengan daya dalam had kenyal.",
+            "Pemalar spring ialah kecerunan graf daya-pemanjangan.",
+            "Tenaga keupayaan kenyal ialah luas di bawah graf F-x bagi spring linear."
+          ],
+          "exam_traps": [
+            "Menganggap Hukum Hooke sah selepas had kenyal.",
+            "Menggunakan panjang keseluruhan spring sebagai pemanjangan."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "F = sqrt(Fx^2 + Fy^2)",
+          "relation": "daya paduan dua komponen serenjang",
+          "unit": "N"
+        },
+        {
+          "symbol": "Fx = F cos theta; Fy = F sin theta",
+          "relation": "komponen daya",
+          "unit": "N"
+        },
+        {
+          "symbol": "F = kx",
+          "relation": "Hukum Hooke",
+          "unit": "N"
+        },
+        {
+          "symbol": "E = 1/2 kx^2",
+          "relation": "tenaga keupayaan kenyal",
+          "unit": "J"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Mengkaji hubungan daya dan pemanjangan spring",
+          "variables": {
+            "manipulated": "daya beban",
+            "responding": "pemanjangan spring",
+            "constant": "spring dan susunan alat yang sama"
+          },
+          "key_takeaway": "Graf F-x linear dalam had kenyal; kecerunan memberikan pemalar spring k."
+        },
+        {
+          "title": "Membandingkan pemalar spring",
+          "variables": {
+            "manipulated": "jenis spring atau susunan spring",
+            "responding": "pemanjangan/pemalar spring",
+            "constant": "jisim awal dan prosedur pengukuran"
+          },
+          "key_takeaway": "Pemalar spring bergantung pada sifat dan susunan spring; spring bersiri/paralel mempunyai pemalar berkesan berbeza."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah syarat keseimbangan translasi?",
+            "answer": "Daya paduan sifar, jadi pecutan sifar."
+          },
+          {
+            "question": "Apakah maksud pemalar spring k?",
+            "answer": "Ukuran kekakuan spring; dalam kawasan Hooke, k ialah nisbah daya kepada pemanjangan."
+          },
+          {
+            "question": "Bila Hukum Hooke terpakai?",
+            "answer": "Dalam had kenyal, apabila pemanjangan berkadar terus dengan daya."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Dua daya 3 N dan 4 N berserenjang. Daya paduan ialah...",
+            "options": [
+              "1 N",
+              "5 N",
+              "7 N",
+              "12 N"
+            ],
+            "correct_answer": "5 N",
+            "explanation": "Gunakan Pythagoras: √(3²+4²)=5 N."
+          },
+          {
+            "question": "Graf F melawan x bagi spring linear mempunyai kecerunan 20 N m^-1. Nilai k ialah...",
+            "options": [
+              "0.05 N m^-1",
+              "20 N m^-1",
+              "40 N m^-1",
+              "400 N m^-1"
+            ],
+            "correct_answer": "20 N m^-1",
+            "explanation": "Daripada F = kx, k ialah kecerunan graf F-x."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5_C2",
+      "chapter_number": 2,
+      "title": "Tekanan",
+      "core_concepts": [
+        {
