@@ -134,6 +134,94 @@
             ],
             "correct_answer": "kg m^-3",
             "explanation": "Ketumpatan ialah jisim bahagi isipadu, jadi unit SI ialah kg/m³."
+          },
+          {
+            "question": "Which quantity is a derived SI quantity?",
+            "options": [
+              "Length",
+              "Mass",
+              "Force",
+              "Time"
+            ],
+            "correct_answer": "Force",
+            "explanation": "Force is derived from mass, length and time."
+          },
+          {
+            "question": "A student records 12.0 cm. What is this in metres?",
+            "options": [
+              "0.012 m",
+              "0.12 m",
+              "1.20 m",
+              "12 m"
+            ],
+            "correct_answer": "0.12 m",
+            "explanation": "Divide centimetres by 100 to convert to metres."
+          },
+          {
+            "question": "Which pair contains two vector quantities?",
+            "options": [
+              "Distance and speed",
+              "Mass and time",
+              "Displacement and velocity",
+              "Temperature and energy"
+            ],
+            "correct_answer": "Displacement and velocity",
+            "explanation": "Both displacement and velocity have magnitude and direction."
+          },
+          {
+            "question": "What does a steeper gradient on a displacement-time graph indicate?",
+            "options": [
+              "Greater acceleration",
+              "Greater velocity",
+              "Greater mass",
+              "Greater force"
+            ],
+            "correct_answer": "Greater velocity",
+            "explanation": "The gradient of a displacement-time graph represents velocity."
+          },
+          {
+            "question": "Which change improves a measurement's precision?",
+            "options": [
+              "Using a finer-scale instrument",
+              "Changing the unit to grams",
+              "Rounding earlier",
+              "Ignoring repeated readings"
+            ],
+            "correct_answer": "Using a finer-scale instrument",
+            "explanation": "A smaller scale division allows finer measurement."
+          },
+          {
+            "question": "A measured value is 5.00 cm. How many significant figures does it have?",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correct_answer": "3",
+            "explanation": "Zeros after the decimal point are significant."
+          },
+          {
+            "question": "What should normally be included on a graph axis?",
+            "options": [
+              "Only the variable name",
+              "Quantity and unit",
+              "Only the unit",
+              "A title only"
+            ],
+            "correct_answer": "Quantity and unit",
+            "explanation": "Axes should identify the quantity and its unit."
+          },
+          {
+            "question": "Why is parallax error reduced by viewing an analogue scale at eye level?",
+            "options": [
+              "It increases sensitivity",
+              "It keeps the eye perpendicular to the scale",
+              "It changes the zero point",
+              "It increases the object size"
+            ],
+            "correct_answer": "It keeps the eye perpendicular to the scale",
+            "explanation": "Eye-level viewing avoids an apparent shift caused by viewing angle."
           }
         ]
       },
@@ -303,6 +391,94 @@
             ],
             "correct_answer": "6 N",
             "explanation": "F = ma = 2 × 3 = 6 N."
+          },
+          {
+            "question": "A 5 kg object accelerates at 2 m s^-2. What is the resultant force?",
+            "options": [
+              "2.5 N",
+              "7 N",
+              "10 N",
+              "25 N"
+            ],
+            "correct_answer": "10 N",
+            "explanation": "F = ma = 5 × 2 = 10 N."
+          },
+          {
+            "question": "A car changes velocity from 4 to 14 m s^-1 in 5 s. Its acceleration is...",
+            "options": [
+              "2 m s^-2",
+              "2.8 m s^-2",
+              "10 m s^-2",
+              "18 m s^-2"
+            ],
+            "correct_answer": "2 m s^-2",
+            "explanation": "a = Δv/Δt = (14−4)/5 = 2 m s^-2."
+          },
+          {
+            "question": "The area under a velocity-time graph gives...",
+            "options": [
+              "Acceleration",
+              "Force",
+              "Displacement",
+              "Momentum"
+            ],
+            "correct_answer": "Displacement",
+            "explanation": "Area under a v-t graph represents displacement."
+          },
+          {
+            "question": "Which statement describes Newton's first law?",
+            "options": [
+              "F = ma",
+              "Every action has a reaction",
+              "Zero resultant force means constant velocity",
+              "Momentum is always zero"
+            ],
+            "correct_answer": "Zero resultant force means constant velocity",
+            "explanation": "Newton's first law links zero resultant force with no change in velocity."
+          },
+          {
+            "question": "A 2 kg trolley moves at 3 m s^-1. Its momentum is...",
+            "options": [
+              "1.5 kg m s^-1",
+              "5 kg m s^-1",
+              "6 kg m s^-1",
+              "9 kg m s^-1"
+            ],
+            "correct_answer": "6 kg m s^-1",
+            "explanation": "p = mv = 2 × 3 = 6 kg m s^-1."
+          },
+          {
+            "question": "Increasing collision time while keeping momentum change the same will...",
+            "options": [
+              "Increase average force",
+              "Decrease average force",
+              "Make momentum zero",
+              "Increase mass"
+            ],
+            "correct_answer": "Decrease average force",
+            "explanation": "F = Δp/Δt, so a longer interaction time gives a smaller average force."
+          },
+          {
+            "question": "Which is a correct Newton's third-law pair?",
+            "options": [
+              "Weight and normal force on one object",
+              "Action and reaction acting on the same object",
+              "Force of A on B and force of B on A",
+              "Mass and weight"
+            ],
+            "correct_answer": "Force of A on B and force of B on A",
+            "explanation": "The pair acts on different objects and has equal magnitude in opposite directions."
+          },
+          {
+            "question": "In free fall near Earth's surface, ignoring air resistance, acceleration is...",
+            "options": [
+              "Zero",
+              "Constant downward g",
+              "Constant upward g",
+              "Increasing mass"
+            ],
+            "correct_answer": "Constant downward g",
+            "explanation": "The acceleration is approximately g directed downward."
           }
         ]
       },
@@ -438,6 +614,94 @@
             ],
             "correct_answer": "N kg^-1",
             "explanation": "Keamatan medan graviti ialah daya per unit jisim."
+          },
+          {
+            "question": "If one mass is doubled while distance stays constant, gravitational force becomes...",
+            "options": [
+              "F/4",
+              "F/2",
+              "2F",
+              "4F"
+            ],
+            "correct_answer": "2F",
+            "explanation": "F is directly proportional to each mass."
+          },
+          {
+            "question": "If distance between two masses becomes three times larger, gravitational force becomes...",
+            "options": [
+              "3F",
+              "F/3",
+              "F/6",
+              "F/9"
+            ],
+            "correct_answer": "F/9",
+            "explanation": "F is inversely proportional to r²."
+          },
+          {
+            "question": "A person's mass is 60 kg and g = 10 N kg^-1. Weight is...",
+            "options": [
+              "6 N",
+              "50 N",
+              "60 N",
+              "600 N"
+            ],
+            "correct_answer": "600 N",
+            "explanation": "W = mg = 60 × 10 = 600 N."
+          },
+          {
+            "question": "Which quantity remains unchanged when moving from Earth to the Moon?",
+            "options": [
+              "Weight",
+              "Gravitational field strength",
+              "Mass",
+              "Gravitational force"
+            ],
+            "correct_answer": "Mass",
+            "explanation": "Mass is independent of local gravitational field strength."
+          },
+          {
+            "question": "A satellite stays in orbit because gravity provides...",
+            "options": [
+              "Electrical force",
+              "Centripetal force",
+              "Buoyant force",
+              "Friction"
+            ],
+            "correct_answer": "Centripetal force",
+            "explanation": "Gravity continually changes the direction of the satellite's velocity."
+          },
+          {
+            "question": "For satellites orbiting the same central body, Kepler's third law gives...",
+            "options": [
+              "T ∝ r",
+              "T² ∝ r³",
+              "T ∝ r²",
+              "T³ ∝ r²"
+            ],
+            "correct_answer": "T² ∝ r³",
+            "explanation": "The square of orbital period is proportional to the cube of orbital radius."
+          },
+          {
+            "question": "Which is a requirement of a geostationary satellite?",
+            "options": [
+              "Polar orbit",
+              "Period of about 24 hours",
+              "Random direction",
+              "Very low orbit"
+            ],
+            "correct_answer": "Period of about 24 hours",
+            "explanation": "Its orbital period matches Earth's rotation."
+          },
+          {
+            "question": "At a greater distance from Earth's centre, gravitational field strength generally...",
+            "options": [
+              "Increases",
+              "Decreases",
+              "Becomes infinite",
+              "Always stays exactly constant"
+            ],
+            "correct_answer": "Decreases",
+            "explanation": "g varies approximately as 1/r² outside a spherical mass."
           }
         ]
       },
@@ -609,6 +873,94 @@
             ],
             "correct_answer": "1/2 kali",
             "explanation": "Hukum Boyle: PV malar, jadi tekanan menjadi separuh."
+          },
+          {
+            "question": "Heat is transferred naturally from...",
+            "options": [
+              "Cold to hot",
+              "Hot to cold",
+              "Low mass to high mass",
+              "Vacuum to matter"
+            ],
+            "correct_answer": "Hot to cold",
+            "explanation": "Thermal energy flows spontaneously from higher to lower temperature."
+          },
+          {
+            "question": "Which mode of heat transfer can occur through a vacuum?",
+            "options": [
+              "Conduction only",
+              "Convection only",
+              "Radiation",
+              "Conduction and convection"
+            ],
+            "correct_answer": "Radiation",
+            "explanation": "Electromagnetic radiation does not require a material medium."
+          },
+          {
+            "question": "Specific heat capacity describes the energy needed to raise the temperature of...",
+            "options": [
+              "1 kg by 1°C",
+              "1 g by 1°C",
+              "Any mass by 10°C",
+              "1 kg to melting point"
+            ],
+            "correct_answer": "1 kg by 1°C",
+            "explanation": "That is the definition of specific heat capacity."
+          },
+          {
+            "question": "During melting of a pure substance, its temperature generally...",
+            "options": [
+              "Rises continuously",
+              "Falls continuously",
+              "Remains constant while energy is supplied",
+              "Becomes absolute zero"
+            ],
+            "correct_answer": "Remains constant while energy is supplied",
+            "explanation": "Energy supplied changes internal energy rather than raising temperature during the phase change."
+          },
+          {
+            "question": "Which surface is a good absorber of thermal radiation?",
+            "options": [
+              "Dull black",
+              "Shiny silver",
+              "Polished white",
+              "Transparent glass"
+            ],
+            "correct_answer": "Dull black",
+            "explanation": "Dull dark surfaces are good absorbers and emitters of thermal radiation."
+          },
+          {
+            "question": "For Q = mcΔθ, doubling the mass while other factors stay constant makes Q...",
+            "options": [
+              "Half",
+              "Unchanged",
+              "Double",
+              "Four times"
+            ],
+            "correct_answer": "Double",
+            "explanation": "Heat energy is directly proportional to mass."
+          },
+          {
+            "question": "Convection occurs mainly because heated fluid...",
+            "options": [
+              "Becomes denser",
+              "Becomes less dense and rises",
+              "Stops moving",
+              "Loses all energy"
+            ],
+            "correct_answer": "Becomes less dense and rises",
+            "explanation": "Density differences create convection currents."
+          },
+          {
+            "question": "Why is a vacuum used in a thermos flask?",
+            "options": [
+              "To increase conduction",
+              "To reduce conduction and convection",
+              "To increase radiation",
+              "To increase boiling"
+            ],
+            "correct_answer": "To reduce conduction and convection",
+            "explanation": "With little or no matter, conduction and convection are strongly reduced."
           }
         ]
       },
@@ -770,6 +1122,94 @@
             ],
             "correct_answer": "Bunyi",
             "explanation": "Bunyi ialah gelombang mekanik dan memerlukan medium."
+          },
+          {
+            "question": "The frequency of a wave is 5 Hz. Its period is...",
+            "options": [
+              "0.2 s",
+              "2 s",
+              "5 s",
+              "25 s"
+            ],
+            "correct_answer": "0.2 s",
+            "explanation": "T = 1/f = 1/5 = 0.2 s."
+          },
+          {
+            "question": "Wave speed is 20 m s^-1 and frequency is 4 Hz. Wavelength is...",
+            "options": [
+              "0.2 m",
+              "5 m",
+              "16 m",
+              "80 m"
+            ],
+            "correct_answer": "5 m",
+            "explanation": "v = fλ, so λ = 20/4 = 5 m."
+          },
+          {
+            "question": "Which wave can travel through a vacuum?",
+            "options": [
+              "Sound",
+              "Water wave",
+              "Light",
+              "Seismic wave"
+            ],
+            "correct_answer": "Light",
+            "explanation": "Electromagnetic waves can propagate through a vacuum."
+          },
+          {
+            "question": "When a wave enters a different medium, its frequency is generally...",
+            "options": [
+              "Changed by the boundary",
+              "Unchanged",
+              "Always doubled",
+              "Always zero"
+            ],
+            "correct_answer": "Unchanged",
+            "explanation": "The source determines frequency; speed and wavelength may change at the boundary."
+          },
+          {
+            "question": "What does diffraction become more noticeable when the gap is...",
+            "options": [
+              "Much larger than wavelength",
+              "Comparable to wavelength",
+              "Zero temperature",
+              "At high pressure only"
+            ],
+            "correct_answer": "Comparable to wavelength",
+            "explanation": "Diffraction is significant when aperture size is comparable to wavelength."
+          },
+          {
+            "question": "A transverse wave has particles vibrating...",
+            "options": [
+              "Parallel to propagation",
+              "Perpendicular to propagation",
+              "Only upward",
+              "Without any motion"
+            ],
+            "correct_answer": "Perpendicular to propagation",
+            "explanation": "That is the defining direction relationship for a transverse wave."
+          },
+          {
+            "question": "Which phenomenon supports the wave nature of light?",
+            "options": [
+              "Diffraction",
+              "Mass",
+              "Weight",
+              "Inertia"
+            ],
+            "correct_answer": "Diffraction",
+            "explanation": "Diffraction is characteristic of wave behaviour."
+          },
+          {
+            "question": "If wavelength doubles while wave speed stays constant, frequency...",
+            "options": [
+              "Doubles",
+              "Halves",
+              "Stays the same",
+              "Becomes four times"
+            ],
+            "correct_answer": "Halves",
+            "explanation": "From v = fλ, f is inversely proportional to λ at constant v."
           }
         ]
       },
@@ -940,6 +1380,94 @@
             ],
             "correct_answer": "2 D",
             "explanation": "P = 1/f = 1/0.50 = 2 D."
+          },
+          {
+            "question": "When light travels from air into glass, it generally bends...",
+            "options": [
+              "Away from the normal",
+              "Towards the normal",
+              "Along the surface",
+              "Without changing direction"
+            ],
+            "correct_answer": "Towards the normal",
+            "explanation": "Light slows in the optically denser medium and bends towards the normal."
+          },
+          {
+            "question": "The angle of incidence is measured between the incident ray and...",
+            "options": [
+              "The surface",
+              "The normal",
+              "The reflected ray",
+              "The mirror edge"
+            ],
+            "correct_answer": "The normal",
+            "explanation": "Angles of incidence and reflection are measured from the normal."
+          },
+          {
+            "question": "For reflection from a plane mirror, angle of incidence equals...",
+            "options": [
+              "Angle of refraction",
+              "Angle of reflection",
+              "90°",
+              "Twice the angle of reflection"
+            ],
+            "correct_answer": "Angle of reflection",
+            "explanation": "This is the law of reflection."
+          },
+          {
+            "question": "Which lens is converging?",
+            "options": [
+              "Convex lens",
+              "Concave lens",
+              "Plane glass only",
+              "Any opaque lens"
+            ],
+            "correct_answer": "Convex lens",
+            "explanation": "A convex lens converges parallel rays towards a principal focus."
+          },
+          {
+            "question": "A real image formed by a converging lens can be...",
+            "options": [
+              "Only upright",
+              "Only virtual",
+              "Inverted",
+              "Always same size"
+            ],
+            "correct_answer": "Inverted",
+            "explanation": "A real image produced by a converging lens is inverted."
+          },
+          {
+            "question": "What is the refractive index relation for angles in air and a medium?",
+            "options": [
+              "n = sin r/sin i",
+              "n = sin i/sin r",
+              "n = i/r",
+              "n = ir"
+            ],
+            "correct_answer": "n = sin i/sin r",
+            "explanation": "For air to a medium, n can be expressed as sin i/sin r under the usual approximation."
+          },
+          {
+            "question": "Total internal reflection requires light to travel from...",
+            "options": [
+              "Less dense to more dense only",
+              "More optically dense to less optically dense",
+              "Vacuum to air only",
+              "Any medium at normal incidence"
+            ],
+            "correct_answer": "More optically dense to less optically dense",
+            "explanation": "It occurs only when travelling from higher to lower refractive index and incidence exceeds the critical angle."
+          },
+          {
+            "question": "A fibre optic cable mainly works by...",
+            "options": [
+              "Diffraction only",
+              "Total internal reflection",
+              "Heating",
+              "Polarisation only"
+            ],
+            "correct_answer": "Total internal reflection",
+            "explanation": "Light is guided along the fibre by repeated total internal reflection."
           }
         ]
       },
@@ -1084,6 +1612,94 @@
             ],
             "correct_answer": "20 N m^-1",
             "explanation": "Daripada F = kx, k ialah kecerunan graf F-x."
+          },
+          {
+            "question": "A 4 kg object moving at 5 m s^-1 has kinetic energy...",
+            "options": [
+              "10 J",
+              "20 J",
+              "50 J",
+              "100 J"
+            ],
+            "correct_answer": "50 J",
+            "explanation": "KE = 1/2 mv² = 1/2 × 4 × 25 = 50 J."
+          },
+          {
+            "question": "A 10 N force moves an object 3 m in its direction. Work done is...",
+            "options": [
+              "3 J",
+              "13 J",
+              "30 J",
+              "300 J"
+            ],
+            "correct_answer": "30 J",
+            "explanation": "W = Fs = 10 × 3 = 30 J."
+          },
+          {
+            "question": "A machine does 200 J of useful work using 500 J input energy. Efficiency is...",
+            "options": [
+              "20%",
+              "40%",
+              "60%",
+              "70%"
+            ],
+            "correct_answer": "40%",
+            "explanation": "Efficiency = 200/500 × 100% = 40%."
+          },
+          {
+            "question": "A force of 20 N acts 0.5 m from a pivot at right angles. Moment is...",
+            "options": [
+              "10 N m",
+              "20 N m",
+              "40 N m",
+              "0.5 N m"
+            ],
+            "correct_answer": "10 N m",
+            "explanation": "Moment = F × perpendicular distance = 20 × 0.5."
+          },
+          {
+            "question": "Momentum is conserved in a collision when the system is approximately...",
+            "options": [
+              "Open to large external forces",
+              "Isolated",
+              "Heated",
+              "Stationary only"
+            ],
+            "correct_answer": "Isolated",
+            "explanation": "Negligible external resultant impulse allows momentum conservation."
+          },
+          {
+            "question": "Power is defined as...",
+            "options": [
+              "Energy × time",
+              "Rate of doing work",
+              "Force ÷ distance",
+              "Momentum per mass"
+            ],
+            "correct_answer": "Rate of doing work",
+            "explanation": "Power is work done or energy transferred per unit time."
+          },
+          {
+            "question": "For rotational equilibrium, the sum of clockwise moments equals...",
+            "options": [
+              "Mass",
+              "Anticlockwise moments",
+              "Power",
+              "Kinetic energy"
+            ],
+            "correct_answer": "Anticlockwise moments",
+            "explanation": "Balanced moments give rotational equilibrium."
+          },
+          {
+            "question": "A 2 kg object is raised 4 m with g = 10 N kg^-1. Gain in gravitational potential energy is...",
+            "options": [
+              "8 J",
+              "20 J",
+              "40 J",
+              "80 J"
+            ],
+            "correct_answer": "80 J",
+            "explanation": "GPE = mgh = 2 × 10 × 4 = 80 J."
           }
         ]
       },
@@ -1254,6 +1870,94 @@
             ],
             "correct_answer": "Lebih besar",
             "explanation": "Daripada F/A yang sama, luas lebih besar menghasilkan daya lebih besar."
+          },
+          {
+            "question": "Pressure is defined as...",
+            "options": [
+              "Force × area",
+              "Force ÷ area",
+              "Area ÷ force",
+              "Mass ÷ volume"
+            ],
+            "correct_answer": "Force ÷ area",
+            "explanation": "Pressure is force acting normally per unit area."
+          },
+          {
+            "question": "A 200 N force acts over 0.5 m². Pressure is...",
+            "options": [
+              "100 Pa",
+              "200 Pa",
+              "400 Pa",
+              "1000 Pa"
+            ],
+            "correct_answer": "400 Pa",
+            "explanation": "P = F/A = 200/0.5 = 400 Pa."
+          },
+          {
+            "question": "For the same force, reducing contact area makes pressure...",
+            "options": [
+              "Decrease",
+              "Increase",
+              "Zero",
+              "Unchanged"
+            ],
+            "correct_answer": "Increase",
+            "explanation": "Pressure is inversely proportional to area."
+          },
+          {
+            "question": "Liquid pressure increases when depth...",
+            "options": [
+              "Decreases",
+              "Increases",
+              "Becomes zero",
+              "Is independent of depth"
+            ],
+            "correct_answer": "Increases",
+            "explanation": "P = ρgh, so pressure increases with depth."
+          },
+          {
+            "question": "Hydraulic systems transmit pressure through...",
+            "options": [
+              "Only solids",
+              "A confined liquid",
+              "Vacuum",
+              "Light"
+            ],
+            "correct_answer": "A confined liquid",
+            "explanation": "Pressure applied to a confined liquid is transmitted through the liquid."
+          },
+          {
+            "question": "Atmospheric pressure generally...",
+            "options": [
+              "Increases greatly with altitude",
+              "Decreases with altitude",
+              "Is zero on mountains",
+              "Does not depend on height"
+            ],
+            "correct_answer": "Decreases with altitude",
+            "explanation": "Air density and the weight of the air column decrease with altitude."
+          },
+          {
+            "question": "Buoyant force on an immersed object is related to...",
+            "options": [
+              "Weight of displaced fluid",
+              "Colour of object",
+              "Temperature only",
+              "Surface area only"
+            ],
+            "correct_answer": "Weight of displaced fluid",
+            "explanation": "Archimedes' principle relates upthrust to displaced fluid weight."
+          },
+          {
+            "question": "Why does a sharp knife cut more easily than a blunt one?",
+            "options": [
+              "It produces less pressure",
+              "It produces greater pressure for the same force",
+              "It has greater mass",
+              "It removes friction completely"
+            ],
+            "correct_answer": "It produces greater pressure for the same force",
+            "explanation": "A smaller contact area gives greater pressure."
           }
         ]
       },
@@ -1434,6 +2138,94 @@
             ],
             "correct_answer": "2 A",
             "explanation": "I = V/R = 12/6 = 2 A."
+          },
+          {
+            "question": "For a 12 V supply and 4 Ω resistor, current is...",
+            "options": [
+              "0.33 A",
+              "3 A",
+              "8 A",
+              "48 A"
+            ],
+            "correct_answer": "3 A",
+            "explanation": "I = V/R = 12/4 = 3 A."
+          },
+          {
+            "question": "Two 4 Ω resistors in series have equivalent resistance...",
+            "options": [
+              "2 Ω",
+              "4 Ω",
+              "8 Ω",
+              "16 Ω"
+            ],
+            "correct_answer": "8 Ω",
+            "explanation": "Series resistances add."
+          },
+          {
+            "question": "Two 6 Ω resistors in parallel have equivalent resistance...",
+            "options": [
+              "3 Ω",
+              "6 Ω",
+              "12 Ω",
+              "36 Ω"
+            ],
+            "correct_answer": "3 Ω",
+            "explanation": "For two equal resistors in parallel, R_eq = R/2."
+          },
+          {
+            "question": "In a series circuit, the current through each component is...",
+            "options": [
+              "Always different",
+              "The same",
+              "Zero",
+              "Infinite"
+            ],
+            "correct_answer": "The same",
+            "explanation": "There is only one path for charge flow."
+          },
+          {
+            "question": "Electrical power can be calculated using...",
+            "options": [
+              "P = VI",
+              "P = V/I only",
+              "P = IR only",
+              "P = I/R"
+            ],
+            "correct_answer": "P = VI",
+            "explanation": "Power is potential difference multiplied by current."
+          },
+          {
+            "question": "A fuse protects a circuit by...",
+            "options": [
+              "Increasing current",
+              "Melting when current is excessive",
+              "Increasing voltage",
+              "Storing charge"
+            ],
+            "correct_answer": "Melting when current is excessive",
+            "explanation": "Excess current heats the fuse wire until it melts and opens the circuit."
+          },
+          {
+            "question": "The potential difference across parallel branches is...",
+            "options": [
+              "The same",
+              "Always zero",
+              "Always different",
+              "Equal to total current"
+            ],
+            "correct_answer": "The same",
+            "explanation": "Parallel branches share the same two supply nodes."
+          },
+          {
+            "question": "A 2 A current flows for 30 s. Charge transferred is...",
+            "options": [
+              "15 C",
+              "28 C",
+              "60 C",
+              "120 C"
+            ],
+            "correct_answer": "60 C",
+            "explanation": "Q = It = 2 × 30 = 60 C."
           }
         ]
       },
@@ -1593,6 +2385,94 @@
             ],
             "correct_answer": "Step-up",
             "explanation": "Voltan sekunder lebih tinggi apabila bilangan lilitan sekunder lebih banyak dalam transformer unggul."
+          },
+          {
+            "question": "Electromagnetic induction occurs when there is a change in...",
+            "options": [
+              "Magnetic flux linkage",
+              "Mass",
+              "Temperature only",
+              "Resistance only"
+            ],
+            "correct_answer": "Magnetic flux linkage",
+            "explanation": "A changing magnetic flux through a conductor induces emf."
+          },
+          {
+            "question": "A generator converts...",
+            "options": [
+              "Electrical energy to chemical energy",
+              "Mechanical energy to electrical energy",
+              "Heat to mass",
+              "Light to sound"
+            ],
+            "correct_answer": "Mechanical energy to electrical energy",
+            "explanation": "Mechanical rotation produces induced emf."
+          },
+          {
+            "question": "Lenz's law states induced current acts to...",
+            "options": [
+              "Increase the change causing it",
+              "Oppose the change causing it",
+              "Stop all magnetic fields",
+              "Increase resistance only"
+            ],
+            "correct_answer": "Oppose the change causing it",
+            "explanation": "The induced effect opposes the change in magnetic flux."
+          },
+          {
+            "question": "A transformer works using...",
+            "options": [
+              "Direct current only",
+              "Changing magnetic flux",
+              "Static charge only",
+              "Chemical reaction"
+            ],
+            "correct_answer": "Changing magnetic flux",
+            "explanation": "Alternating current produces changing flux in the core."
+          },
+          {
+            "question": "An ideal step-up transformer has...",
+            "options": [
+              "More secondary turns than primary",
+              "Fewer secondary turns than primary",
+              "No secondary coil",
+              "Equal turns always"
+            ],
+            "correct_answer": "More secondary turns than primary",
+            "explanation": "V_s/V_p = N_s/N_p."
+          },
+          {
+            "question": "Why is electricity transmitted at high voltage?",
+            "options": [
+              "To increase current losses",
+              "To reduce current for a given power and lower I²R losses",
+              "To stop induction",
+              "To increase resistance"
+            ],
+            "correct_answer": "To reduce current for a given power and lower I²R losses",
+            "explanation": "For fixed power, higher voltage means lower current and smaller resistive losses."
+          },
+          {
+            "question": "A transformer cannot directly operate from steady DC because...",
+            "options": [
+              "DC has no mass",
+              "It does not provide continuously changing flux",
+              "DC is always dangerous",
+              "It has no voltage"
+            ],
+            "correct_answer": "It does not provide continuously changing flux",
+            "explanation": "Steady DC does not maintain the changing flux needed for transformer induction."
+          },
+          {
+            "question": "The SI unit of magnetic flux density is...",
+            "options": [
+              "Tesla",
+              "Weber per second only",
+              "Ohm",
+              "Volt"
+            ],
+            "correct_answer": "Tesla",
+            "explanation": "Magnetic flux density is measured in tesla (T)."
           }
         ]
       },
@@ -1731,6 +2611,94 @@
             ],
             "correct_answer": "100",
             "explanation": "β = IC/IB = 20/0.2 = 100."
+          },
+          {
+            "question": "A diode mainly allows current to flow...",
+            "options": [
+              "Equally in both directions",
+              "Preferentially in one direction",
+              "Only in vacuum",
+              "Only when disconnected"
+            ],
+            "correct_answer": "Preferentially in one direction",
+            "explanation": "A diode has strong directional conduction."
+          },
+          {
+            "question": "Which transistor terminal controls the current in a BJT?",
+            "options": [
+              "Base",
+              "Collector only",
+              "Emitter only",
+              "Case"
+            ],
+            "correct_answer": "Base",
+            "explanation": "Base current controls collector current in the active model."
+          },
+          {
+            "question": "A logic AND gate outputs 1 when...",
+            "options": [
+              "Both inputs are 1",
+              "Either input is 1",
+              "Both inputs are 0",
+              "Inputs are different"
+            ],
+            "correct_answer": "Both inputs are 1",
+            "explanation": "AND requires all inputs to be high."
+          },
+          {
+            "question": "An OR gate outputs 0 when...",
+            "options": [
+              "Both inputs are 1",
+              "Either input is 1",
+              "All inputs are 0",
+              "Inputs are different"
+            ],
+            "correct_answer": "All inputs are 0",
+            "explanation": "OR is high if at least one input is high."
+          },
+          {
+            "question": "A NOT gate does what to its input?",
+            "options": [
+              "Keeps it unchanged",
+              "Inverts it",
+              "Adds it",
+              "Multiplies it"
+            ],
+            "correct_answer": "Inverts it",
+            "explanation": "NOT changes 1 to 0 and 0 to 1."
+          },
+          {
+            "question": "If β = 50 and base current is 0.2 mA, collector current is approximately...",
+            "options": [
+              "0.004 mA",
+              "4 mA",
+              "10 mA",
+              "100 mA"
+            ],
+            "correct_answer": "10 mA",
+            "explanation": "I_C ≈ βI_B = 50 × 0.2 mA = 10 mA."
+          },
+          {
+            "question": "A transistor used as a switch commonly operates between...",
+            "options": [
+              "Cut-off and saturation",
+              "Melting and boiling",
+              "Reflection and refraction",
+              "Positive and negative infinity"
+            ],
+            "correct_answer": "Cut-off and saturation",
+            "explanation": "These represent off and on states in the switch model."
+          },
+          {
+            "question": "A sensor in an automatic light circuit is used to...",
+            "options": [
+              "Detect a physical condition",
+              "Create energy from nothing",
+              "Remove all resistance",
+              "Replace the power supply"
+            ],
+            "correct_answer": "Detect a physical condition",
+            "explanation": "Sensors convert a physical condition into a usable electrical signal."
           }
         ]
       },
@@ -1875,6 +2843,94 @@
             ],
             "correct_answer": "Gelombang elektromagnet",
             "explanation": "Sinar gama ialah sinaran elektromagnet bertenaga tinggi."
+          },
+          {
+            "question": "Alpha radiation changes nucleon number by...",
+            "options": [
+              "−1",
+              "−2",
+              "−4",
+              "0"
+            ],
+            "correct_answer": "−4",
+            "explanation": "An alpha particle contains two protons and two neutrons."
+          },
+          {
+            "question": "In beta-minus decay, proton number...",
+            "options": [
+              "Decreases by 2",
+              "Decreases by 1",
+              "Stays the same",
+              "Increases by 1"
+            ],
+            "correct_answer": "Increases by 1",
+            "explanation": "A neutron changes into a proton while emitting a beta-minus particle and antineutrino."
+          },
+          {
+            "question": "Gamma emission changes proton and nucleon numbers by...",
+            "options": [
+              "Both increase",
+              "Both decrease",
+              "Neither changes",
+              "Only nucleon number changes"
+            ],
+            "correct_answer": "Neither changes",
+            "explanation": "Gamma emission is electromagnetic radiation from an excited nucleus."
+          },
+          {
+            "question": "After two half-lives, the remaining activity is...",
+            "options": [
+              "1/2",
+              "1/3",
+              "1/4",
+              "1/8"
+            ],
+            "correct_answer": "1/4",
+            "explanation": "Each half-life halves the activity."
+          },
+          {
+            "question": "A radioactive sample has 800 Bq activity. After 3 half-lives it is...",
+            "options": [
+              "400 Bq",
+              "200 Bq",
+              "100 Bq",
+              "50 Bq"
+            ],
+            "correct_answer": "100 Bq",
+            "explanation": "800 × (1/2)^3 = 100 Bq."
+          },
+          {
+            "question": "Which process combines light nuclei?",
+            "options": [
+              "Fission",
+              "Fusion",
+              "Ionisation",
+              "Reflection"
+            ],
+            "correct_answer": "Fusion",
+            "explanation": "Fusion combines light nuclei and can release energy."
+          },
+          {
+            "question": "Which process splits a heavy nucleus?",
+            "options": [
+              "Fusion",
+              "Fission",
+              "Diffraction",
+              "Conduction"
+            ],
+            "correct_answer": "Fission",
+            "explanation": "Fission divides a heavy nucleus into smaller nuclei."
+          },
+          {
+            "question": "Mass defect is associated with...",
+            "options": [
+              "Energy release/binding energy",
+              "Zero mass",
+              "Only chemical bonding",
+              "Temperature only"
+            ],
+            "correct_answer": "Energy release/binding energy",
+            "explanation": "The mass difference corresponds to energy through E = Δmc²."
           }
         ]
       },
@@ -2038,6 +3094,94 @@
             ],
             "correct_answer": "Tidak menghasilkan kesan fotoelektrik",
             "explanation": "Frekuensi mesti mencapai atau melebihi frekuensi ambang sebelum fotoelektron boleh dipancarkan."
+          },
+          {
+            "question": "Photon energy increases when frequency...",
+            "options": [
+              "Decreases",
+              "Increases",
+              "Becomes zero",
+              "Is unrelated"
+            ],
+            "correct_answer": "Increases",
+            "explanation": "E = hf, so photon energy is proportional to frequency."
+          },
+          {
+            "question": "A photon has wavelength 600 nm. Compared with a 300 nm photon, its energy is...",
+            "options": [
+              "Twice as large",
+              "Half as large",
+              "The same",
+              "Four times larger"
+            ],
+            "correct_answer": "Half as large",
+            "explanation": "E = hc/λ, so doubling wavelength halves photon energy."
+          },
+          {
+            "question": "The photoelectric effect requires light frequency to be...",
+            "options": [
+              "Below threshold",
+              "At least the threshold frequency",
+              "Exactly zero",
+              "Independent of the metal"
+            ],
+            "correct_answer": "At least the threshold frequency",
+            "explanation": "A photon must have enough energy to overcome the work function."
+          },
+          {
+            "question": "Increasing light intensity above threshold mainly increases the...",
+            "options": [
+              "Number of emitted photoelectrons",
+              "Work function of the metal",
+              "Threshold frequency",
+              "Mass of electrons"
+            ],
+            "correct_answer": "Number of emitted photoelectrons",
+            "explanation": "Higher intensity means more photons per unit time, increasing emitted electron number under suitable conditions."
+          },
+          {
+            "question": "Maximum photoelectron kinetic energy increases when...",
+            "options": [
+              "Frequency increases",
+              "Intensity alone increases below threshold",
+              "Area decreases",
+              "Temperature falls only"
+            ],
+            "correct_answer": "Frequency increases",
+            "explanation": "Higher photon energy gives more energy above the work function."
+          },
+          {
+            "question": "Work function is the minimum energy needed to...",
+            "options": [
+              "Heat the metal",
+              "Remove an electron from the metal surface",
+              "Create a proton",
+              "Stop all light"
+            ],
+            "correct_answer": "Remove an electron from the metal surface",
+            "explanation": "It is the minimum energy needed for photoemission."
+          },
+          {
+            "question": "If a particle's momentum doubles, its de Broglie wavelength...",
+            "options": [
+              "Doubles",
+              "Halves",
+              "Stays constant",
+              "Becomes four times larger"
+            ],
+            "correct_answer": "Halves",
+            "explanation": "λ = h/p, so wavelength is inversely proportional to momentum."
+          },
+          {
+            "question": "Which observation supports the wave nature of electrons?",
+            "options": [
+              "Electron diffraction",
+              "Electron mass",
+              "Electric charge alone",
+              "Gravity"
+            ],
+            "correct_answer": "Electron diffraction",
+            "explanation": "Diffraction is evidence that electrons exhibit wave behaviour."
           }
         ]
       },
