@@ -797,8 +797,7 @@
       "experiments": [
         {
           "title": "Menentukan indeks biasan blok kaca",
-          "variables": {
-            "manipulated": "sudut tuju",
+          "variables": {            "manipulated": "sudut tuju",
             "responding": "sudut biasan",
             "constant": "blok, warna cahaya dan keadaan permukaan"
           },
@@ -998,3 +997,856 @@
       "title": "Tekanan",
       "core_concepts": [
         {
+          "topic": "Tekanan cecair",
+          "summary": "Tekanan dalam cecair bertambah dengan kedalaman dan ketumpatan cecair; pada titik sama aras, tekanan hidrostatik adalah sama untuk cecair yang sama.",
+          "high_yield_notes": [
+            "Tekanan bertindak ke semua arah dalam cecair.",
+            "Bentuk dan luas keratan rentas bekas tidak menentukan tekanan hidrostatik pada kedalaman yang sama.",
+            "Tekanan mutlak boleh melibatkan tekanan atmosfera selain tekanan hidrostatik."
+          ],
+          "exam_traps": [
+            "Menggunakan tinggi bekas sebagai kedalaman tanpa mengenal pasti titik rujukan.",
+            "Mengabaikan unit ketumpatan atau tinggi."
+          ]
+        },
+        {
+          "topic": "Tekanan atmosfera dan gas",
+          "summary": "Tekanan atmosfera berpunca daripada berat turus udara. Tekanan gas dalam bekas boleh ditentukan menggunakan manometer.",
+          "high_yield_notes": [
+            "Tekanan atmosfera piawai ialah 760 mm Hg pada keadaan piawai.",
+            "Tekanan atmosfera berkurang apabila altitud meningkat.",
+            "Bacaan manometer memerlukan tafsiran perbezaan aras cecair dan tekanan rujukan."
+          ],
+          "exam_traps": [
+            "Menganggap tekanan atmosfera bertambah dengan altitud.",
+            "Menambah atau menolak tekanan manometer pada sisi yang salah."
+          ]
+        },
+        {
+          "topic": "Prinsip Pascal",
+          "summary": "Tekanan yang dikenakan pada bendalir tertutup dipindahkan secara seragam ke semua arah.",
+          "high_yield_notes": [
+            "Sistem hidraulik boleh menggandakan daya kerana luas omboh output lebih besar.",
+            "Kerja/tenaga tidak digandakan secara percuma; omboh output bergerak jarak lebih kecil."
+          ],
+          "exam_traps": [
+            "Menganggap tekanan bertambah apabila bergerak melalui bendalir tertutup.",
+            "Menggunakan luas kecil sebagai pembilang secara terbalik."
+          ]
+        },
+        {
+          "topic": "Archimedes dan Bernoulli",
+          "summary": "Daya apungan sama dengan berat bendalir yang disesarkan. Dalam aliran bendalir, halaju lebih tinggi berkaitan dengan tekanan lebih rendah.",
+          "high_yield_notes": [
+            "Objek terapung pada aras tetap apabila daya apungan = berat.",
+            "Daya apungan bergantung pada ketumpatan bendalir, isipadu bendalir disesarkan dan g.",
+            "Prinsip Bernoulli membantu menerangkan daya angkat aerofoil dan beberapa aplikasi aliran bendalir."
+          ],
+          "exam_traps": [
+            "Menggunakan isipadu objek penuh apabila hanya sebahagian tenggelam.",
+            "Mengatakan kawasan aliran laju mempunyai tekanan lebih tinggi."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "P = F/A",
+          "relation": "tekanan",
+          "unit": "Pa"
+        },
+        {
+          "symbol": "P = rho gh",
+          "relation": "tekanan hidrostatik",
+          "unit": "Pa"
+        },
+        {
+          "symbol": "F1/A1 = F2/A2",
+          "relation": "Prinsip Pascal/pengganda daya",
+          "unit": "Pa"
+        },
+        {
+          "symbol": "FB = rho Vg",
+          "relation": "daya apungan",
+          "unit": "N"
+        },
+        {
+          "symbol": "FL = (P2-P1)A",
+          "relation": "daya angkat daripada beza tekanan",
+          "unit": "N"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Mengkaji faktor yang mempengaruhi tekanan cecair",
+          "variables": {
+            "manipulated": "kedalaman atau ketumpatan cecair",
+            "responding": "tekanan/tinggi pancutan atau bacaan alat",
+            "constant": "bentuk bekas, luas bukaan dan keadaan alat"
+          },
+          "key_takeaway": "Tekanan hidrostatik bertambah dengan kedalaman dan ketumpatan."
+        },
+        {
+          "title": "Menentukan daya apungan dan berat cecair disesarkan",
+          "variables": {
+            "manipulated": "isipadu cecair disesarkan",
+            "responding": "daya apungan",
+            "constant": "cecair dan objek"
+          },
+          "key_takeaway": "Daya apungan bersamaan berat cecair yang disesarkan."
+        },
+        {
+          "title": "Mengkaji daya angkat/aerofoil",
+          "variables": {
+            "manipulated": "sudut serang atau halaju aliran",
+            "responding": "daya angkat",
+            "constant": "luas aerofoil dan keadaan udara"
+          },
+          "key_takeaway": "Perbezaan tekanan merentasi aerofoil menghasilkan daya dari tekanan tinggi ke rendah."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah formula tekanan cecair?",
+            "answer": "P = ρgh."
+          },
+          {
+            "question": "Apakah prinsip Archimedes?",
+            "answer": "Daya apungan pada objek terendam sama dengan berat bendalir yang disesarkan."
+          },
+          {
+            "question": "Dalam prinsip Bernoulli, bagaimana tekanan berubah apabila halaju bendalir meningkat?",
+            "answer": "Tekanan statik berkurang dalam keadaan aliran yang sesuai."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Tekanan hidrostatik bergantung pada...",
+            "options": [
+              "Bentuk bekas sahaja",
+              "Kedalaman dan ketumpatan cecair",
+              "Luas permukaan bekas sahaja",
+              "Jisim objek sahaja"
+            ],
+            "correct_answer": "Kedalaman dan ketumpatan cecair",
+            "explanation": "P = ρgh menunjukkan faktor utama ialah ρ, g dan h."
+          },
+          {
+            "question": "Omboh output hidraulik mempunyai luas lebih besar daripada omboh input. Daya output...",
+            "options": [
+              "Lebih kecil",
+              "Sama sentiasa",
+              "Lebih besar",
+              "Sentiasa sifar"
+            ],
+            "correct_answer": "Lebih besar",
+            "explanation": "Daripada F/A yang sama, luas lebih besar menghasilkan daya lebih besar."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5_C3",
+      "chapter_number": 3,
+      "title": "Elektrik",
+      "core_concepts": [
+        {
+          "topic": "Arus, cas dan beza keupayaan",
+          "summary": "Arus ialah kadar aliran cas. Beza keupayaan ialah tenaga/kerja per unit cas antara dua titik.",
+          "high_yield_notes": [
+            "1 A = 1 C s^-1.",
+            "1 V = 1 J C^-1.",
+            "Arus konvensional dianggap mengalir dari terminal positif ke negatif di luar sumber; elektron bergerak bertentangan dalam konduktor logam."
+          ],
+          "exam_traps": [
+            "Mengatakan arus ialah bilangan elektron sahaja tanpa masa.",
+            "Mengelirukan arah arus konvensional dengan arah aliran elektron."
+          ]
+        },
+        {
+          "topic": "Rintangan dan Hukum Ohm",
+          "summary": "Rintangan ialah halangan terhadap arus. Bagi konduktor ohmik pada suhu malar, V berkadar terus dengan I.",
+          "high_yield_notes": [
+            "R = V/I.",
+            "Rintangan dawai R = ρl/A.",
+            "Panjang lebih besar → R lebih besar; luas keratan rentas lebih besar → R lebih kecil bagi bahan dan suhu sama."
+          ],
+          "exam_traps": [
+            "Menggunakan ρ sebagai rintangan.",
+            "Menganggap semua komponen mematuhi Hukum Ohm pada semua keadaan."
+          ]
+        },
+        {
+          "topic": "D.g.e. dan rintangan dalam",
+          "summary": "D.g.e. ialah tenaga yang dibekalkan sumber per unit cas. Rintangan dalam menyebabkan beza keupayaan terminal lebih kecil apabila arus mengalir.",
+          "high_yield_notes": [
+            "Untuk sel: V = ε - Ir apabila membekalkan arus.",
+            "Graf V melawan I mempunyai pintasan ε dan kecerunan -r jika paksi V-y dan I-x."
+          ],
+          "exam_traps": [
+            "Menganggap ε sentiasa sama dengan V terminal ketika arus mengalir.",
+            "Tersalah tanda pada kehilangan voltan Ir."
+          ]
+        },
+        {
+          "topic": "Tenaga dan kuasa elektrik",
+          "summary": "Tenaga elektrik yang digunakan berkaitan dengan V, I dan masa; kuasa ialah kadar penggunaan tenaga.",
+          "high_yield_notes": [
+            "P = VI = I²R = V²/R.",
+            "Tenaga E = Pt = VIt.",
+            "Unit komersial tenaga elektrik ialah kWh; 1 kWh = 3.6 MJ."
+          ],
+          "exam_traps": [
+            "Menggunakan kW dan jam lalu melaporkan J tanpa penukaran.",
+            "Menggunakan formula siri/selari secara songsang."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "I = Q/t",
+          "relation": "arus",
+          "unit": "A"
+        },
+        {
+          "symbol": "V = W/Q",
+          "relation": "beza keupayaan",
+          "unit": "V"
+        },
+        {
+          "symbol": "V = IR",
+          "relation": "Hukum Ohm",
+          "unit": "V"
+        },
+        {
+          "symbol": "R = rho l/A",
+          "relation": "rintangan dawai",
+          "unit": "ohm"
+        },
+        {
+          "symbol": "V = epsilon - Ir",
+          "relation": "beza keupayaan terminal sumber",
+          "unit": "V"
+        },
+        {
+          "symbol": "P = VI",
+          "relation": "kuasa elektrik",
+          "unit": "W"
+        },
+        {
+          "symbol": "E = Pt = VIt",
+          "relation": "tenaga elektrik",
+          "unit": "J"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Mengkaji hubungan arus dan beza keupayaan",
+          "variables": {
+            "manipulated": "beza keupayaan",
+            "responding": "arus",
+            "constant": "jenis perintang, suhu dan litar"
+          },
+          "key_takeaway": "Graf V-I linear untuk konduktor ohmik pada suhu malar."
+        },
+        {
+          "title": "Menentukan d.g.e. dan rintangan dalam sel kering",
+          "variables": {
+            "manipulated": "arus",
+            "responding": "beza keupayaan terminal",
+            "constant": "sel dan rintangan luar yang digunakan"
+          },
+          "key_takeaway": "Graf V-I boleh memberikan ε sebagai pintasan dan r sebagai magnitud kecerunan."
+        },
+        {
+          "title": "Mengkaji faktor rintangan dawai",
+          "variables": {
+            "manipulated": "panjang/luas keratan rentas/bahan",
+            "responding": "rintangan",
+            "constant": "suhu dan jenis litar"
+          },
+          "key_takeaway": "R berkadar terus dengan panjang dan berkadar songsang dengan luas, dengan resistiviti bergantung pada bahan dan suhu."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah definisi arus elektrik?",
+            "answer": "Kadar aliran cas elektrik, I = Q/t."
+          },
+          {
+            "question": "Apakah beza antara d.g.e. dan beza keupayaan terminal?",
+            "answer": "D.g.e. ialah tenaga dibekalkan per unit cas oleh sumber; voltan terminal ialah tenaga yang tersedia per unit cas di terminal dan boleh berkurang kerana rintangan dalam."
+          },
+          {
+            "question": "Apakah 1 kWh dalam joule?",
+            "answer": "3.6 × 10^6 J."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Jika 12 C cas mengalir dalam 3 s, arus ialah...",
+            "options": [
+              "0.25 A",
+              "4 A",
+              "9 A",
+              "36 A"
+            ],
+            "correct_answer": "4 A",
+            "explanation": "I = Q/t = 12/3 = 4 A."
+          },
+          {
+            "question": "Satu perintang 6 Ω disambung kepada 12 V. Arus ialah...",
+            "options": [
+              "0.5 A",
+              "2 A",
+              "6 A",
+              "72 A"
+            ],
+            "correct_answer": "2 A",
+            "explanation": "I = V/R = 12/6 = 2 A."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5_C4",
+      "chapter_number": 4,
+      "title": "Keelektromagnetan",
+      "core_concepts": [
+        {
+          "topic": "Daya ke atas konduktor pembawa arus",
+          "summary": "Konduktor berarus dalam medan magnet mengalami daya yang arahnya ditentukan oleh medan magnet, arah arus dan peraturan tangan kiri Fleming.",
+          "high_yield_notes": [
+            "Daya maksimum apabila konduktor berserenjang dengan medan.",
+            "Daya sifar apabila konduktor selari dengan medan.",
+            "Menukar arah arus atau medan magnet akan menukar arah daya."
+          ],
+          "exam_traps": [
+            "Menggunakan peraturan tangan kanan Fleming untuk motor tanpa memahami konvensyen.",
+            "Lupa bahawa daya bergantung pada panjang konduktor dalam medan."
+          ]
+        },
+        {
+          "topic": "Aruhan elektromagnet",
+          "summary": "D.g.e. aruhan terhasil apabila fluks magnet yang memaut konduktor berubah.",
+          "high_yield_notes": [
+            "Perubahan fluks boleh berlaku dengan menggerakkan magnet, gegelung atau menukar kekuatan medan.",
+            "Hukum Lenz: arus aruhan mempunyai arah yang menentang perubahan yang menyebabkannya.",
+            "Laju perubahan fluks yang lebih besar menghasilkan d.g.e. aruhan yang lebih besar."
+          ],
+          "exam_traps": [
+            "Menganggap medan magnet statik sahaja menghasilkan arus aruhan.",
+            "Menentukan arah arus tanpa mengenal pasti perubahan fluks terlebih dahulu."
+          ]
+        },
+        {
+          "topic": "Transformer",
+          "summary": "Transformer memindahkan tenaga elektrik antara gegelung melalui aruhan elektromagnet dan beroperasi dengan arus ulang-alik.",
+          "high_yield_notes": [
+            "Transformer unggul: Vs/Vp = Ns/Np dan VpIp = VsIs.",
+            "Step-up: Ns > Np dan Vs > Vp.",
+            "Step-down: Ns < Np dan Vs < Vp.",
+            "Kehilangan tenaga boleh berlaku melalui rintangan, arus pusar, histerisis dan kebocoran fluks."
+          ],
+          "exam_traps": [
+            "Menggunakan transformer terus dengan bekalan DC untuk operasi normal.",
+            "Menganggap step-up meningkatkan kuasa output secara percuma."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "F = BIl sin theta",
+          "relation": "daya magnet pada konduktor berarus",
+          "unit": "N"
+        },
+        {
+          "symbol": "epsilon = -N Delta Phi/Delta t",
+          "relation": "d.g.e. aruhan menurut Hukum Faraday-Lenz",
+          "unit": "V"
+        },
+        {
+          "symbol": "Phi = BA cos theta",
+          "relation": "fluks magnet melalui kawasan",
+          "unit": "Wb"
+        },
+        {
+          "symbol": "Vs/Vp = Ns/Np",
+          "relation": "nisbah voltan dan lilitan transformer unggul",
+          "unit": "tiada unit"
+        },
+        {
+          "symbol": "VpIp = VsIs",
+          "relation": "keabadian kuasa transformer unggul",
+          "unit": "W"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Mengkaji daya pada konduktor berarus dalam medan magnet",
+          "variables": {
+            "manipulated": "arus atau kekuatan medan magnet",
+            "responding": "magnitud daya",
+            "constant": "panjang konduktor dan sudut yang ditetapkan"
+          },
+          "key_takeaway": "Daya bertambah dengan arus, panjang konduktor dan kekuatan medan serta bergantung pada sin sudut."
+        },
+        {
+          "title": "Mengkaji aruhan elektromagnet",
+          "variables": {
+            "manipulated": "kadar perubahan fluks",
+            "responding": "d.g.e./arus aruhan",
+            "constant": "bilangan lilitan atau rintangan litar"
+          },
+          "key_takeaway": "Perubahan fluks lebih cepat atau lebih besar menghasilkan d.g.e. aruhan lebih besar."
+        },
+        {
+          "title": "Mengkaji hubungan lilitan dan voltan transformer",
+          "variables": {
+            "manipulated": "nisbah bilangan lilitan",
+            "responding": "nisbah voltan primer-sekunder",
+            "constant": "frekuensi bekalan dan teras"
+          },
+          "key_takeaway": "Transformer unggul mematuhi Vs/Vp = Ns/Np."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Bila daya magnet pada konduktor adalah maksimum?",
+            "answer": "Apabila konduktor berserenjang dengan medan magnet, θ = 90°."
+          },
+          {
+            "question": "Apakah Hukum Lenz?",
+            "answer": "Arah arus aruhan menentang perubahan fluks magnet yang menyebabkannya."
+          },
+          {
+            "question": "Apakah ciri transformer step-up?",
+            "answer": "Gegelung sekunder mempunyai lebih banyak lilitan dan voltan sekunder lebih tinggi daripada primer."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Daya magnet pada konduktor berarus menjadi sifar apabila konduktor...",
+            "options": [
+              "Berserenjang dengan medan",
+              "Selari dengan medan",
+              "Bergerak paling laju",
+              "Mempunyai arus tinggi"
+            ],
+            "correct_answer": "Selari dengan medan",
+            "explanation": "F = BIl sin θ dan sin 0° = 0."
+          },
+          {
+            "question": "Transformer dengan Ns > Np ialah...",
+            "options": [
+              "Step-down",
+              "Step-up",
+              "Transformer DC",
+              "Motor"
+            ],
+            "correct_answer": "Step-up",
+            "explanation": "Voltan sekunder lebih tinggi apabila bilangan lilitan sekunder lebih banyak dalam transformer unggul."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5_C5",
+      "chapter_number": 5,
+      "title": "Elektronik",
+      "core_concepts": [
+        {
+          "topic": "Elektron dan semikonduktor",
+          "summary": "Elektronik menggunakan pergerakan dan kawalan elektron dalam bahan, termasuk semikonduktor.",
+          "high_yield_notes": [
+            "Semikonduktor mempunyai kekonduksian antara konduktor dan penebat.",
+            "Doping menghasilkan semikonduktor jenis-n atau jenis-p dengan pembawa cas majoriti berbeza."
+          ],
+          "exam_traps": [
+            "Menganggap semikonduktor sentiasa penebat.",
+            "Mengelirukan pembawa majoriti jenis-p dan jenis-n."
+          ]
+        },
+        {
+          "topic": "Diod semikonduktor",
+          "summary": "Diod membenarkan arus mengalir dengan mudah dalam satu arah dan digunakan untuk penyearahan serta perlindungan tertentu.",
+          "high_yield_notes": [
+            "Diod hadapan menghasilkan arus apabila bias hadapan mencukupi.",
+            "Bias songsang menghalang arus besar sehingga keadaan pecahan tertentu.",
+            "Diod digunakan dalam penyearah separuh gelombang dan litar elektronik."
+          ],
+          "exam_traps": [
+            "Menyambung diod bias hadapan/songsang secara terbalik dalam rajah.",
+            "Menganggap diod ialah perintang linear yang sama dalam kedua-dua arah."
+          ]
+        },
+        {
+          "topic": "Transistor",
+          "summary": "Transistor boleh bertindak sebagai suis atau penguat; BJT mempunyai terminal pemancar, tapak dan pengumpul.",
+          "high_yield_notes": [
+            "Arus tapak kecil boleh mengawal arus pengumpul yang lebih besar dalam keadaan operasi sesuai.",
+            "Sebagai suis, transistor boleh berada dalam keadaan cut-off atau saturation.",
+            "Dalam penguat, perubahan kecil isyarat input boleh menghasilkan perubahan lebih besar pada output."
+          ],
+          "exam_traps": [
+            "Menukar nama terminal transistor.",
+            "Menganggap semua keadaan transistor ialah penguat linear."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "I_C ≈ beta I_B",
+          "relation": "hubungan arus pengumpul dan arus tapak dalam model BJT aktif",
+          "unit": "A"
+        },
+        {
+          "symbol": "beta = I_C/I_B",
+          "relation": "penguatan arus transistor",
+          "unit": "tiada unit"
+        },
+        {
+          "symbol": "V = IR",
+          "relation": "hubungan asas litar perintang dalam litar elektronik",
+          "unit": "V"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Mengkaji ciri arus-voltan diod",
+          "variables": {
+            "manipulated": "beza keupayaan merentasi diod",
+            "responding": "arus diod",
+            "constant": "suhu dan jenis diod"
+          },
+          "key_takeaway": "Ciri I-V diod tidak linear; arus hadapan meningkat ketara selepas voltan hadapan tertentu."
+        },
+        {
+          "title": "Mengkaji transistor sebagai suis",
+          "variables": {
+            "manipulated": "arus/voltan input pada tapak",
+            "responding": "keadaan arus pengumpul/output",
+            "constant": "bekalan dan beban"
+          },
+          "key_takeaway": "Isyarat input mengawal keadaan transistor; cut-off mematikan beban dan saturation menghidupkannya dalam model suis."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah fungsi asas diod?",
+            "answer": "Membenarkan arus mengalir dengan mudah dalam satu arah dan menghalangnya dalam arah bertentangan dalam keadaan biasa."
+          },
+          {
+            "question": "Apakah tiga terminal BJT?",
+            "answer": "Pemancar, tapak dan pengumpul."
+          },
+          {
+            "question": "Apakah dua keadaan transistor sebagai suis?",
+            "answer": "Cut-off dan saturation."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Diod dalam bias hadapan biasanya...",
+            "options": [
+              "Menghalang arus sepenuhnya",
+              "Membenarkan arus mengalir",
+              "Menjadi sumber tenaga",
+              "Menukar AC kepada DC tanpa litar"
+            ],
+            "correct_answer": "Membenarkan arus mengalir",
+            "explanation": "Bias hadapan mengurangkan halangan simpang dan membenarkan arus apabila voltan mencukupi."
+          },
+          {
+            "question": "Jika IC = 20 mA dan IB = 0.2 mA, β ialah...",
+            "options": [
+              "10",
+              "50",
+              "100",
+              "200"
+            ],
+            "correct_answer": "100",
+            "explanation": "β = IC/IB = 20/0.2 = 100."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5_C6",
+      "chapter_number": 6,
+      "title": "Fizik Nuklear",
+      "core_concepts": [
+        {
+          "topic": "Reputan radioaktif",
+          "summary": "Reputan radioaktif ialah proses spontan dan rawak nukleus tidak stabil berubah menjadi nukleus lebih stabil dengan memancarkan sinaran.",
+          "high_yield_notes": [
+            "Alfa ialah nukleus helium; nombor nukleon berkurang 4 dan nombor proton berkurang 2.",
+            "Beta negatif ialah elektron yang dipancarkan; nombor proton bertambah 1 dan nombor nukleon kekal.",
+            "Gama ialah sinaran elektromagnet bertenaga tinggi dan tidak mengubah nombor proton/nukleon."
+          ],
+          "exam_traps": [
+            "Menukar nombor nukleon dalam reputan beta.",
+            "Menganggap sinaran radioaktif berhenti apabila suhu berubah."
+          ]
+        },
+        {
+          "topic": "Separuh hayat dan aktiviti",
+          "summary": "Separuh hayat ialah masa yang diperlukan untuk aktiviti atau bilangan nukleus belum reput berkurang kepada separuh.",
+          "high_yield_notes": [
+            "Reputan individu adalah rawak tetapi kadar reputan populasi stabil secara statistik.",            "Selepas n separuh hayat, baki aktiviti A = A0(1/2)^n.",
+            "Separuh hayat boleh digunakan dalam pentarikhan radioaktif."
+          ],
+          "exam_traps": [
+            "Mengurangkan aktiviti dengan nilai tetap setiap separuh hayat.",
+            "Menganggap separuh hayat bergantung pada jumlah sampel awal."
+          ]
+        },
+        {
+          "topic": "Tenaga nuklear",
+          "summary": "Tenaga nuklear berkaitan perubahan tenaga ikatan dan cacat jisim dalam proses pembelahan atau pelakuran.",
+          "high_yield_notes": [
+            "Pembelahan membahagi nukleus berat; pelakuran menggabungkan nukleus ringan.",
+            "Kedua-duanya boleh membebaskan tenaga apabila keadaan menghasilkan keadaan nukleus lebih terikat.",
+            "Reaktor nuklear memerlukan kawalan tindak balas berantai untuk operasi selamat."
+          ],
+          "exam_traps": [
+            "Mengelirukan pembelahan dan pelakuran.",
+            "Menganggap semua sinaran dalam reaktor mempunyai sifat yang sama."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "A = A0(1/2)^n",
+          "relation": "aktiviti selepas n separuh hayat",
+          "unit": "Bq"
+        },
+        {
+          "symbol": "n = t/T1/2",
+          "relation": "bilangan separuh hayat",
+          "unit": "tiada unit"
+        },
+        {
+          "symbol": "E = mc^2",
+          "relation": "tenaga setara dengan perubahan jisim",
+          "unit": "J"
+        },
+        {
+          "symbol": "Q = Delta m c^2",
+          "relation": "tenaga daripada cacat jisim",
+          "unit": "J"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Menentukan separuh hayat daripada graf reputan",
+          "variables": {
+            "manipulated": "masa",
+            "responding": "aktiviti/kadar cacatan",
+            "constant": "jenis sumber dan keadaan pengesan"
+          },
+          "key_takeaway": "Separuh hayat diperoleh daripada masa yang diperlukan aktiviti jatuh kepada separuh nilai tertentu pada lengkung reputan."
+        },
+        {
+          "title": "Mengkaji penembusan sinaran radioaktif",
+          "variables": {
+            "manipulated": "jenis bahan penyerap atau ketebalan",
+            "responding": "kadar cacatan pengesan",
+            "constant": "jarak sumber-pengesan dan masa pengukuran"
+          },
+          "key_takeaway": "Sinaran berbeza mempunyai kuasa penembusan berbeza; pengukuran perlu mengambil kira sinaran latar."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah sifat reputan radioaktif?",
+            "answer": "Ia spontan dan rawak serta tidak dipengaruhi oleh keadaan fizikal biasa seperti suhu dan tekanan."
+          },
+          {
+            "question": "Apa berlaku pada nombor proton dalam reputan beta negatif?",
+            "answer": "Nombor proton bertambah satu, manakala nombor nukleon kekal."
+          },
+          {
+            "question": "Apakah beza pembelahan dan pelakuran?",
+            "answer": "Pembelahan memecahkan nukleus berat; pelakuran menggabungkan nukleus ringan."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Selepas 3 separuh hayat, baki aktiviti ialah...",
+            "options": [
+              "1/2",
+              "1/4",
+              "1/8",
+              "1/16"
+            ],
+            "correct_answer": "1/8",
+            "explanation": "A = A0(1/2)^3 = A0/8."
+          },
+          {
+            "question": "Sinar gama ialah...",
+            "options": [
+              "Nukleus helium",
+              "Elektron",
+              "Gelombang elektromagnet",
+              "Proton"
+            ],
+            "correct_answer": "Gelombang elektromagnet",
+            "explanation": "Sinar gama ialah sinaran elektromagnet bertenaga tinggi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "F5_C7",
+      "chapter_number": 7,
+      "title": "Fizik Kuantum",
+      "core_concepts": [
+        {
+          "topic": "Teori kuantum cahaya",
+          "summary": "Tenaga elektromagnet dipindahkan dalam kuanta diskret. Cahaya mempunyai sifat gelombang dan zarah.",
+          "high_yield_notes": [
+            "Foton ialah kuanta cahaya.",
+            "Tenaga foton berkadar terus dengan frekuensi dan berkadar songsang dengan panjang gelombang.",
+            "Dualiti gelombang-zarah menerangkan fenomena yang tidak boleh dihuraikan oleh model klasik tunggal."
+          ],
+          "exam_traps": [
+            "Menganggap semua cahaya mempunyai tenaga foton sama.",
+            "Mengelirukan frekuensi dengan panjang gelombang dalam E = hc/λ."
+          ]
+        },
+        {
+          "topic": "Kesan fotoelektrik",
+          "summary": "Kesan fotoelektrik ialah pelepasan elektron daripada permukaan logam apabila cahaya dengan frekuensi yang sesuai mengenainya.",
+          "high_yield_notes": [
+            "Terdapat frekuensi ambang bagi setiap logam.",
+            "Jika f < f0, peningkatan keamatan tidak menghasilkan fotoelektron.",
+            "Tenaga kinetik maksimum fotoelektron meningkat dengan frekuensi, bukan keamatan, apabila f melebihi ambang.",
+            "Fotoelektron dipancarkan hampir serta-merta apabila cahaya melepasi ambang."
+          ],
+          "exam_traps": [
+            "Mengatakan keamatan menentukan sama ada frekuensi ambang dicapai.",
+            "Mengatakan keamatan lebih tinggi sentiasa menghasilkan tenaga kinetik maksimum lebih tinggi."
+          ]
+        },
+        {
+          "topic": "Teori fotoelektrik Einstein",
+          "summary": "Tenaga foton digunakan untuk mengatasi fungsi kerja logam; lebihan menjadi tenaga kinetik maksimum fotoelektron.",
+          "high_yield_notes": [
+            "Persamaan Einstein: hf = W + 1/2 mv_max².",
+            "Fungsi kerja W = hf0.",
+            "Frekuensi ambang ialah frekuensi minimum yang membolehkan pelepasan elektron."
+          ],
+          "exam_traps": [
+            "Menggunakan frekuensi cahaya di bawah ambang dalam persamaan seolah-olah fotoelektron tetap terhasil.",
+            "Tidak membezakan tenaga foton dengan tenaga kinetik maksimum."
+          ]
+        },
+        {
+          "topic": "de Broglie dan mikroskop elektron",
+          "summary": "Zarah berjisim mempunyai panjang gelombang de Broglie, tetapi untuk objek makroskopik panjang gelombang amat kecil.",
+          "high_yield_notes": [
+            "λ = h/p.",
+            "Elektron boleh menunjukkan sifat gelombang yang boleh diperhatikan.",
+            "Mikroskop elektron menggunakan elektron untuk mendapatkan resolusi tinggi."
+          ],
+          "exam_traps": [
+            "Mengatakan semua objek mempunyai panjang gelombang yang mudah diperhatikan.",
+            "Menggunakan momentum p sebagai tenaga."
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "symbol": "E = hf = hc/lambda",
+          "relation": "tenaga foton",
+          "unit": "J"
+        },
+        {
+          "symbol": "P = nhf",
+          "relation": "kuasa sumber cahaya dengan n foton sesaat",
+          "unit": "W"
+        },
+        {
+          "symbol": "hf = W + 1/2 mv_max^2",
+          "relation": "persamaan fotoelektrik Einstein",
+          "unit": "J"
+        },
+        {
+          "symbol": "W = hf0",
+          "relation": "fungsi kerja logam",
+          "unit": "J"
+        },
+        {
+          "symbol": "lambda = h/p",
+          "relation": "panjang gelombang de Broglie",
+          "unit": "m"
+        }
+      ],
+      "experiments": [
+        {
+          "title": "Menentukan pemalar Planck menggunakan kit fotoelektrik",
+          "variables": {
+            "manipulated": "frekuensi cahaya",
+            "responding": "voltan henti",
+            "constant": "bahan fotoelektrik dan keadaan alat"
+          },
+          "key_takeaway": "Hubungan voltan henti dengan frekuensi boleh digunakan untuk menentukan pemalar Planck daripada kecerunan yang sesuai."
+        },
+        {
+          "title": "Mengkaji kesan frekuensi dan keamatan cahaya",
+          "variables": {
+            "manipulated": "frekuensi atau keamatan",
+            "responding": "arus fotoelektrik/voltan henti dan kewujudan fotoelektron",
+            "constant": "jarak, permukaan logam dan susunan alat"
+          },
+          "key_takeaway": "Frekuensi menentukan sama ada kesan berlaku dan tenaga kinetik maksimum; keamatan terutama mempengaruhi bilangan fotoelektron apabila frekuensi melebihi ambang."
+        }
+      ],
+      "interactive_features": {
+        "flashcards": [
+          {
+            "question": "Apakah tenaga foton?",
+            "answer": "E = hf = hc/λ."
+          },
+          {
+            "question": "Apakah frekuensi ambang?",
+            "answer": "Frekuensi minimum cahaya yang diperlukan untuk menghasilkan kesan fotoelektrik bagi sesuatu logam."
+          },
+          {
+            "question": "Apakah persamaan de Broglie?",
+            "answer": "λ = h/p, yang mengaitkan panjang gelombang zarah dengan momentumnya."
+          }
+        ],
+        "quiz": [
+          {
+            "question": "Jika frekuensi cahaya digandakan, tenaga setiap foton...",
+            "options": [
+              "Separuh",
+              "Kekal",
+              "Ganda dua",
+              "Jadi sifar"
+            ],
+            "correct_answer": "Ganda dua",
+            "explanation": "E = hf, jadi tenaga foton berkadar terus dengan frekuensi."
+          },
+          {
+            "question": "Apabila f < f0, meningkatkan keamatan cahaya akan...",
+            "options": [
+              "Menghasilkan fotoelektron serta-merta",
+              "Meningkatkan tenaga kinetik maksimum",
+              "Tidak menghasilkan kesan fotoelektrik",
+              "Menukar logam menjadi semikonduktor"
+            ],
+            "correct_answer": "Tidak menghasilkan kesan fotoelektrik",
+            "explanation": "Frekuensi mesti mencapai atau melebihi frekuensi ambang sebelum fotoelektron boleh dipancarkan."
+          }
+        ]
+      }
+    }
+  ]
+}
