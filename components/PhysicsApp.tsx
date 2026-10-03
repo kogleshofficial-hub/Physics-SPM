@@ -33,6 +33,7 @@ export default function PhysicsApp(){
  const [xrayIndex,setXrayIndex]=useState(0);
  const L=ui[lang];
  const chapter=chapters.find(c=>c.id===selected)??chapters[0];
+ const translate=(target:keyof typeof ui)=>{setLang(target);if(target!=="en"){const code=target==="zh"?"zh-CN":target;document.cookie="googtrans=/ms/"+code+";path=/"}else{document.cookie="googtrans=/ms/ms;path=/"}window.location.reload()};
  const filtered=useMemo(()=>{const q=query.trim().toLowerCase();return q?chapters.filter(c=>JSON.stringify(c).toLowerCase().includes(q)):chapters},[query]);
  const f4=filtered.filter(c=>c.id.startsWith("F4_")),f5=filtered.filter(c=>c.id.startsWith("F5_"));
  const chapterProgress=progress[selected]??0;
@@ -54,7 +55,7 @@ export default function PhysicsApp(){
   <header className="topbar"><div className="top-inner">
    <button className="logo" onClick={()=>go(chapters[0].id)}><span>Φ</span><div><strong>PHYSICS SPM</strong><small>KSSM F4 + F5</small></div></button>
    <div className="global-search"><Search size={16}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder={L.search}/>{query&&<span>{filtered.length}</span>}</div>
-   <div className="top-actions"><button className="tiny-btn" onClick={()=>setTheme(v=>v==="dark"?"light":"dark")}>◐ {theme==="dark"?"Bright":"Dark"}</button><select value={lang} onChange={e=>setLang(e.target.value as keyof typeof ui)}><option value="en">English</option><option value="ms">Bahasa Melayu</option><option value="id">Indonesia</option><option value="zh">中文</option><option value="ta">தமிழ்</option></select><button className="xray" onClick={()=>setXray(true)}><Zap size={14}/> {L.xray}</button></div>
+   <div className="top-actions"><button className="tiny-btn" onClick={()=>setTheme(v=>v==="dark"?"light":"dark")}>◐ {theme==="dark"?"Bright":"Dark"}</button><select value={lang} onChange={e=>translate(e.target.value as keyof typeof ui)}><option value="en">English</option><option value="ms">Bahasa Melayu</option><option value="id">Indonesia</option><option value="zh">中文</option><option value="ta">தமிழ்</option></select><button className="xray" onClick={()=>setXray(true)}><Zap size={14}/> {L.xray}</button></div>
   </div></header>
 
   <div className="mobile-bar"><select value={selected} onChange={e=>go(e.target.value)}>{chapters.map(c=><option key={c.id} value={c.id}>{c.id.replace("_"," ")} · {c.title}</option>)}</select></div>
@@ -67,7 +68,7 @@ export default function PhysicsApp(){
    <main className="reader">
     <section className="welcome"><div className="welcome-copy"><div className="eyebrow">KSSM · SPM REVISION SYSTEM</div><h1>Physics that feels like<br/><em>revision, not reading.</em></h1><p>Everything you need for a chapter is compressed into a path: understand it, lock the memory, recognise the exam pattern, then prove you can answer it.</p><div className="welcome-actions"><button className="primary" onClick={()=>{setTab("learn");mark(Math.max(chapterProgress,10))}}>{chapterProgress>0?L.continue:L.start} <ChevronRight size={16}/></button><button className="secondary" onClick={openTest}><Brain size={16}/> {L.test}</button></div></div><div className="orbit"><div className="orbit-ring r1"/><div className="orbit-ring r2"/><div className="orbit-core">Φ</div><span>13<br/><small>CHAPTERS</small></span></div></section>
 
-    <div className="chapter-intro"><div><div className="crumb">{chapter.id.replace("_"," ")} · {chapter.chapter_number<=7?"FORM 4":"FORM 5"}</div><h2>{chapter.title}</h2><p>{chapter.slogan}</p></div><div className="chapter-tools"><button onClick={()=>setLiked(v=>({...v,[selected]:!v[selected]}))} className={liked[selected]?"liked":"icon-btn"}><Heart size={16} fill={liked[selected]?"currentColor":"none"}/></button><button className="xray-mini" onClick={()=>setXray(true)}><Zap size={14}/> {L.xray}</button></div></div>
+    <div className="chapter-intro"><div><div className="crumb">{chapter.id.replace("_"," ")} · {chapter.id.startsWith("F4")?"FORM 4":"FORM 5"}</div><h2>{chapter.title}</h2><p>{chapter.slogan}</p></div><div className="chapter-tools"><button onClick={()=>setLiked(v=>({...v,[selected]:!v[selected]}))} className={liked[selected]?"liked":"icon-btn"}><Heart size={16} fill={liked[selected]?"currentColor":"none"}/></button><button className="xray-mini" onClick={()=>setXray(true)}><Zap size={14}/> {L.xray}</button></div></div>
 
     <div className="progress-line"><div><b>{chapterProgress}%</b> {L.progress}</div><div className="bar"><span style={{width:chapterProgress+"%"}}/></div><button onClick={()=>mark(chapterProgress>=100?0:100)}>{chapterProgress>=100?L.reset:L.done}</button></div>
 
