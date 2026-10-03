@@ -42,7 +42,7 @@ export default function PhysicsApp(){
 
  useEffect(()=>{try{const saved=localStorage.getItem("physics-spm-state");if(saved){const s=JSON.parse(saved);if(s.theme)setTheme(s.theme);if(s.lang)setLang(s.lang);if(s.progress)setProgress(s.progress)}}catch{}},[]);
  useEffect(()=>{try{localStorage.setItem("physics-spm-state",JSON.stringify({theme,lang,progress}))}catch{}},[theme,lang,progress]);
- useEffect(()=>{const onHash=()=>{const m=location.hash.match(/#\\/t([45])\\/(\\d+)/);if(m){const id="F"+m[1]+"_C"+m[2];if(chapters.some(c=>c.id===id))setSelected(id)}};onHash();addEventListener("hashchange",onHash);return()=>removeEventListener("hashchange",onHash)},[]);
+ useEffect(()=>{const onHash=()=>{const m=location.hash.match(/#\/t([45])\/(\d+)/);if(m){const id="F"+m[1]+"_C"+m[2];if(chapters.some(c=>c.id===id))setSelected(id)}};onHash();addEventListener("hashchange",onHash);return()=>removeEventListener("hashchange",onHash)},[]);
  const go=(id:string)=>{setSelected(id);setTab("learn");const c=chapters.find(x=>x.id===id);if(c){history.replaceState(null,"","#/t"+(id.startsWith("F4")?"4":"5")+"/"+c.chapter_number)}window.scrollTo({top:0,behavior:"smooth"})};
  const selectedIndex=chapters.findIndex(c=>c.id===selected);
  const previous=chapters[selectedIndex-1], next=chapters[selectedIndex+1];
