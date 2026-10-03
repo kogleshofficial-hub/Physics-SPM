@@ -1,0 +1,1 @@
+import PhysicsApp from "@/components/PhysicsApp"; export default function Page(){return <PhysicsApp/>;}
