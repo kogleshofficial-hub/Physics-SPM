@@ -81,7 +81,7 @@ export default function PhysicsApp(){
     {tab==="recall"&&<Recall chapter={chapter} L={L} flipped={flipped} setFlipped={setFlipped} answers={answers} setAnswers={setAnswers}/>}
 
     <div className="chapter-nav"><button disabled={!previous} onClick={()=>previous&&go(previous.id)}><ChevronLeft size={16}/><span>{L.prev}<b>{previous?.title}</b></span></button><button disabled={!next} onClick={()=>next&&go(next.id)}><span>{L.next}<b>{next?.title}</b></span><ChevronRight size={16}/></button></div>
-   <footer className="credit-footer"><div className="credit-mark">Φ</div><div><span>PHYSICS SPM · KSSM REVISION</span><strong>Created by Koglesh R. Murugan</strong><small>Built for focused learning, active recall, and SPM revision.</small></div></footer>\n   </main>\n  </div>
+   <footer className="credit-footer"><span>© 2026 Koglesh R. Murugan</span><b>PHYSICS SPM · KSSM REVISION</b></footer>\n   </main>\n  </div>
 
   {xray&&<div className="modal-backdrop" onMouseDown={e=>e.target===e.currentTarget&&setXray(false)}><div className="xray-modal"><div className="modal-head"><div><div className="eyebrow">⚡ SPM X-RAY</div><h2>Find the marks hiding in this chapter.</h2></div><button onClick={()=>setXray(false)}>×</button></div><div className="xray-type">{xrayItems[xrayIndex%xrayItems.length]?.kind}</div><div className="xray-text">{xrayItems[xrayIndex%xrayItems.length]?.text}</div><div className="xray-actions"><button className="secondary" onClick={()=>setXrayIndex(i=>(i+1)%xrayItems.length)}>NEXT HIT <ChevronRight size={15}/></button><button className="primary" onClick={()=>{setXray(false);setTab("exam")}}>OPEN EXAM HITS</button></div><small>{xrayIndex+1} / {xrayItems.length} · {L.slogan}</small></div></div>}
 
